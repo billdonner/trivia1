@@ -1,0 +1,590 @@
+[
+  {
+    "question": "Who is commonly referred to as 'The Madonna' in Christian tradition?",
+    "answers": [
+      "Mary, the mother of Jesus",
+      "Mary Magdalene",
+      "Saint Anne",
+      "Saint Teresa"
+    ],
+    "correct": "Mary, the mother of Jesus",
+    "hint": "She is the mother of Jesus Christ.",
+    "explanation": "In Christian tradition, 'The Madonna' refers to Mary, the mother of Jesus, who is revered for her purity, maternal love, and role in the mystery of the Incarnation.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'Madonna' mean in Italian?",
+    "answers": [
+      "Queen",
+      "Our Lady",
+      "Mother",
+      "Saint"
+    ],
+    "correct": "Our Lady",
+    "hint": "It is a respectful title used to honor Mary.",
+    "explanation": "In Italian, 'Madonna' translates as 'Our Lady' and is a title used to honor the Virgin Mary in Christian tradition.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which biblical event is celebrated as the Annunciation, when the angel Gabriel visited Mary?",
+    "answers": [
+      "The Nativity",
+      "The Crucifixion",
+      "The Annunciation",
+      "The Resurrection"
+    ],
+    "correct": "The Annunciation",
+    "hint": "This event marks the announcement that Mary would bear Jesus.",
+    "explanation": "The Annunciation is celebrated as the moment when the Angel Gabriel announced to Mary that she would conceive and give birth to Jesus, marking a pivotal moment in Christian history.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Christian art, how is the Madonna most commonly depicted?",
+    "answers": [
+      "As a warrior",
+      "As a loving mother with the infant Jesus",
+      "As a queen with a crown",
+      "As a scholar with a book"
+    ],
+    "correct": "As a loving mother with the infant Jesus",
+    "hint": "Her image is usually warm and maternal.",
+    "explanation": "The Madonna is most often portrayed as a nurturing and compassionate mother holding the infant Jesus, symbolizing both her humanity and her role in the divine mystery.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which title is frequently used in the Catholic Church to honor Mary?",
+    "answers": [
+      "Queen of Heaven",
+      "Lady of the Lake",
+      "Saint of Peace",
+      "Divine Mother"
+    ],
+    "correct": "Queen of Heaven",
+    "hint": "This title exalts her above all in the heavenly realm.",
+    "explanation": "Mary is often honored with the title 'Queen of Heaven' in Catholic tradition, reflecting her exalted status and her role as a mediator between the divine and humanity.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the Feast of the Immaculate Conception celebrated in honor of?",
+    "answers": [
+      "Mary's birth",
+      "The Annunciation",
+      "Mary being conceived without original sin",
+      "Mary's assumption into heaven"
+    ],
+    "correct": "Mary being conceived without original sin",
+    "hint": "This feast is celebrated on December 8th.",
+    "explanation": "The Feast of the Immaculate Conception, celebrated on December 8th, honors the doctrine that Mary was conceived without the stain of original sin.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Renaissance artist is famous for his depiction of the Madonna in works such as 'The Madonna of the Rocks'?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correct": "Leonardo da Vinci",
+    "hint": "He created several iconic representations of Mary.",
+    "explanation": "Leonardo da Vinci is renowned for his masterful portrayals of the Madonna, including 'The Madonna of the Rocks', which highlight both spiritual serenity and natural beauty.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the 'Madonna and Child' motif in art symbolize?",
+    "answers": [
+      "The struggle for power",
+      "Maternal love and divine incarnation",
+      "A celebration of marriage",
+      "A depiction of a historical battle"
+    ],
+    "correct": "Maternal love and divine incarnation",
+    "hint": "It reflects both human and divine aspects.",
+    "explanation": "The 'Madonna and Child' motif symbolizes the union of human maternal care and the divine nature of Christ, capturing the essence of the Incarnation in Christian art.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which Gospel is the account of Mary’s visit to her cousin Elizabeth found?",
+    "answers": [
+      "The Gospel of John",
+      "The Gospel of Matthew",
+      "The Gospel of Luke",
+      "The Gospel of Mark"
+    ],
+    "correct": "The Gospel of Luke",
+    "hint": "This Gospel contains detailed narratives of Mary's early life.",
+    "explanation": "The Gospel of Luke provides the narrative of Mary's visitation to Elizabeth, an event that underscores the blessedness and divine favor bestowed upon Mary.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which symbol is most often associated with the Madonna in Christian iconography?",
+    "answers": [
+      "A dove",
+      "A rose",
+      "A lily",
+      "A crown"
+    ],
+    "correct": "A lily",
+    "hint": "This flower symbolizes purity and chastity.",
+    "explanation": "The lily is commonly associated with the Madonna in art, representing her purity, innocence, and immaculate nature.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Under what title is Mary revered for her role as a mediator between humanity and Christ?",
+    "answers": [
+      "Savior",
+      "Intercessor",
+      "Prophet",
+      "Apostle"
+    ],
+    "correct": "Intercessor",
+    "hint": "She is believed to intercede on behalf of believers.",
+    "explanation": "Mary is often honored as the 'Intercessor' because she is believed to pray for and mediate between humanity and her son, Jesus Christ.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which color is traditionally used in art to represent the Madonna, symbolizing purity and heavenly grace?",
+    "answers": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "correct": "Blue",
+    "hint": "This color is also associated with calm and divinity.",
+    "explanation": "Blue is traditionally used to depict the Madonna in art as it symbolizes her purity, serenity, and connection to the divine.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which miraculous phenomenon is frequently reported in connection with Marian apparitions?",
+    "answers": [
+      "Turning water into wine",
+      "Apparitions and healings",
+      "Walking on water",
+      "Speaking in tongues"
+    ],
+    "correct": "Apparitions and healings",
+    "hint": "These events have been documented at various shrines.",
+    "explanation": "Marian apparitions, such as those at Lourdes and Fatima, are often accompanied by reports of miraculous healings and signs, reinforcing the faith of believers.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'Assumption' refer to in relation to the Madonna?",
+    "answers": [
+      "Her birth",
+      "Her ascension into heaven",
+      "Her marriage",
+      "Her martyrdom"
+    ],
+    "correct": "Her ascension into heaven",
+    "hint": "It is celebrated as a major Marian feast day.",
+    "explanation": "The Assumption refers to the belief that Mary was taken, body and soul, into heaven at the end of her earthly life, a doctrine celebrated by many Christian denominations.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous shrine dedicated to the Madonna is located in France and is known for reports of miraculous healings?",
+    "answers": [
+      "Our Lady of Guadalupe",
+      "Our Lady of Lourdes",
+      "Our Lady of Fatima",
+      "Our Lady of Czestochowa"
+    ],
+    "correct": "Our Lady of Lourdes",
+    "hint": "It is named after the town of Lourdes.",
+    "explanation": "Our Lady of Lourdes is a major pilgrimage site in France where the Madonna is said to have appeared, and it is renowned for numerous reports of miraculous healings.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Rosary in Marian devotion?",
+    "answers": [
+      "A type of candle used in ceremonies",
+      "A prayer tool for meditating on the life of Mary and the mysteries of Christ",
+      "A hymn sung during Mass",
+      "A religious garment worn by nuns"
+    ],
+    "correct": "A prayer tool for meditating on the life of Mary and the mysteries of Christ",
+    "hint": "It consists of a string of beads.",
+    "explanation": "The Rosary is a form of prayer that uses a set of beads to help believers meditate on the significant events in the lives of Mary and Jesus, reinforcing key aspects of their faith.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Christian tradition places strong emphasis on the veneration of the Madonna through icons and liturgical celebrations?",
+    "answers": [
+      "Protestantism",
+      "Eastern Orthodoxy",
+      "Judaism",
+      "Islam"
+    ],
+    "correct": "Eastern Orthodoxy",
+    "hint": "This tradition is known for its rich iconographic heritage.",
+    "explanation": "Eastern Orthodoxy places a high value on Marian devotion, with numerous icons and feast days dedicated to the Madonna, reflecting her central role in the spirituality of the Church.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which art period is most noted for its exquisite depictions of the Madonna and Child that emphasize humanism and naturalism?",
+    "answers": [
+      "Baroque",
+      "Gothic",
+      "Renaissance",
+      "Modern"
+    ],
+    "correct": "Renaissance",
+    "hint": "This period produced some of the most famous Madonna artworks.",
+    "explanation": "The Renaissance is celebrated for its artistic achievements, including profoundly human and naturalistic portrayals of the Madonna and Child by artists such as Raphael and Leonardo da Vinci.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the Latin title 'Mater Dei' mean in reference to the Madonna?",
+    "answers": [
+      "Queen of Heaven",
+      "Mother of God",
+      "Lady of Grace",
+      "Holy Spirit"
+    ],
+    "correct": "Mother of God",
+    "hint": "It emphasizes her role as the mother of Jesus.",
+    "explanation": "The title 'Mater Dei' translates to 'Mother of God', underscoring Mary's unique role as the mother of Jesus Christ, who is fully divine and fully human.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Marian iconography, what does the presence of a crown typically symbolize when depicted on the Madonna?",
+    "answers": [
+      "Her martyrdom",
+      "Her earthly power",
+      "Her heavenly glory and queenship",
+      "Her sorrow"
+    ],
+    "correct": "Her heavenly glory and queenship",
+    "hint": "It signifies an exalted status in heaven.",
+    "explanation": "A crown in depictions of the Madonna symbolizes her status as 'Queen of Heaven', reflecting her exalted role and divine favor within Christian belief.",
+    "topic": "The Madonna",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which theological doctrine, dogmatically defined in 1854, asserts that Mary was conceived without original sin?",
+    "answers": [
+      "Assumption",
+      "Immaculate Conception",
+      "Perpetual Virginity",
+      "Divine Mercy"
+    ],
+    "correct": "Immaculate Conception",
+    "hint": "It was defined by Pope Pius IX.",
+    "explanation": "The doctrine of the Immaculate Conception, declared in 1854, holds that Mary was preserved free from original sin from the moment of her conception, marking her as uniquely pure.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which 19th-century Marian apparition in Lourdes, France, is credited with inspiring renewed devotion and reports of miraculous healings?",
+    "answers": [
+      "The Battle of Waterloo",
+      "The Franco-Prussian War",
+      "The Lourdes apparitions",
+      "The Industrial Revolution"
+    ],
+    "correct": "The Lourdes apparitions",
+    "hint": "They occurred in a small French town and involved a young girl.",
+    "explanation": "The Lourdes apparitions of 1858, in which the Madonna was said to have appeared to Bernadette Soubirous, have had a lasting impact on Catholic devotion and continue to draw pilgrims seeking healing.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which early Church Father’s writings helped shape later Marian doctrine in Western Christianity?",
+    "answers": [
+      "St. Augustine",
+      "St. Jerome",
+      "St. Ambrose",
+      "St. Thomas Aquinas"
+    ],
+    "correct": "St. Augustine",
+    "hint": "He was one of the most influential theologians of his time.",
+    "explanation": "St. Augustine's theological reflections and writings, though not exclusively focused on Mary, significantly influenced the development of Marian thought in Western Christianity.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the significance of the 'Hodegetria' icon type in Byzantine art regarding the portrayal of the Madonna?",
+    "answers": [
+      "It shows Mary holding a scroll",
+      "It portrays Mary as 'She who shows the Way' by pointing to Christ",
+      "It depicts Mary as a warrior",
+      "It illustrates Mary with a halo of stars"
+    ],
+    "correct": "It portrays Mary as 'She who shows the Way' by pointing to Christ",
+    "hint": "This type emphasizes her role in guiding believers to Jesus.",
+    "explanation": "The Hodegetria is one of the most venerated Byzantine icon types. It depicts the Madonna holding the Child Jesus and pointing toward him, symbolizing her role in leading the faithful to Christ.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which papal encyclical, whose title means 'Shining Crown', addressed the role of Mary in the modern world?",
+    "answers": [
+      "Humanae Vitae",
+      "Mystici Corporis Christi",
+      "Fulgens Corona",
+      "Redemptor Hominis"
+    ],
+    "correct": "Fulgens Corona",
+    "hint": "Its title translates as 'Shining Crown' in Latin.",
+    "explanation": "The encyclical 'Fulgens Corona' (issued in the early 1950s) reaffirms the importance of Marian devotion in the modern era, celebrating Mary as the 'Shining Crown' of the Church.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Renaissance painting technique, characterized by soft transitions between colors, was used to create an ethereal effect in depictions of the Madonna?",
+    "answers": [
+      "Chiaroscuro",
+      "Fresco",
+      "Sfumato",
+      "Cubism"
+    ],
+    "correct": "Sfumato",
+    "hint": "It produces a smoky, soft-edged effect.",
+    "explanation": "The technique of 'sfumato'—pioneered by artists like Leonardo da Vinci—was used to render delicate transitions between colors and tones, giving Madonna portraits a soft, dreamlike quality.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the significance of Raphael's 'Madonna del Prato' (Madonna of the Meadow) in the context of Renaissance art?",
+    "answers": [
+      "It is a depiction of Mary as a rural figure",
+      "It exemplifies the harmony of nature and humanism through a serene portrayal of the Madonna and Child",
+      "It is a political allegory",
+      "It focuses on abstract forms"
+    ],
+    "correct": "It exemplifies the harmony of nature and humanism through a serene portrayal of the Madonna and Child",
+    "hint": "Its name means 'Madonna of the Meadow'.",
+    "explanation": "Raphael's 'Madonna del Prato' is celebrated for its balanced composition and the gentle interplay between the figures and nature, reflecting Renaissance ideals of harmony, beauty, and humanism.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the doctrine of the 'Perpetual Virginity' of Mary uniquely characterize her life?",
+    "answers": [
+      "It denies Mary's divine nature",
+      "It asserts that Mary remained a virgin before, during, and after the birth of Jesus",
+      "It claims Mary married multiple times",
+      "It suggests Mary had siblings who were also virgins"
+    ],
+    "correct": "It asserts that Mary remained a virgin before, during, and after the birth of Jesus",
+    "hint": "This doctrine emphasizes her lifelong virginity.",
+    "explanation": "The doctrine of the 'Perpetual Virginity' teaches that Mary was a virgin at all times in her life, underscoring her unique sanctity and role in the mystery of the Incarnation.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What theological event is commemorated on the Feast of the Assumption, and how is it understood?",
+    "answers": [
+      "Mary's birth",
+      "Her resurrection",
+      "Her being taken up into heaven",
+      "Her martyrdom"
+    ],
+    "correct": "Her being taken up into heaven",
+    "hint": "It is one of the major Marian feasts.",
+    "explanation": "The Feast of the Assumption commemorates the belief that Mary was assumed, body and soul, into heaven at the end of her earthly life, symbolizing her glorification and unique place in salvation history.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which 20th-century Marian apparition took place in Fatima, Portugal, profoundly influencing Catholic devotion?",
+    "answers": [
+      "Our Lady of Lourdes",
+      "Our Lady of Czestochowa",
+      "Our Lady of Fatima",
+      "Our Lady of Guadalupe"
+    ],
+    "correct": "Our Lady of Fatima",
+    "hint": "It involved three shepherd children in Portugal.",
+    "explanation": "The apparitions at Fatima in 1917, where the Madonna appeared to three shepherd children, led to a renewed emphasis on prayer, penance, and devotion, and continue to influence Catholic spirituality.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In response to criticisms from Protestant reformers, how is Mary's role as an intercessor most commonly defended?",
+    "answers": [
+      "By citing her scriptural role in the Gospels",
+      "By emphasizing her unique relationship with Christ and her exemplary holiness",
+      "By denying her existence",
+      "By stating that she was a mere human without any special role"
+    ],
+    "correct": "By emphasizing her unique relationship with Christ and her exemplary holiness",
+    "hint": "Her closeness to Jesus is a key point.",
+    "explanation": "Defenders of Marian intercession argue that Mary's intimate relationship with Christ and her unparalleled holiness uniquely qualify her to intercede for believers, a stance that was hotly debated during the Reformation.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which medieval collection of saints' lives played a major role in shaping the popular image of the Madonna as a figure of compassion?",
+    "answers": [
+      "The Divine Comedy",
+      "The Golden Legend",
+      "The Canterbury Tales",
+      "Beowulf"
+    ],
+    "correct": "The Golden Legend",
+    "hint": "It was compiled by Jacobus de Voragine.",
+    "explanation": "The Golden Legend is a medieval collection of hagiographies that significantly influenced the popular and enduring image of the Madonna as a compassionate intercessor and model of piety.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the title 'Virgo Immaculata' emphasize about the Madonna?",
+    "answers": [
+      "Her role as a teacher",
+      "Her virginity and sinless nature",
+      "Her martyrdom",
+      "Her status as a warrior"
+    ],
+    "correct": "Her virginity and sinless nature",
+    "hint": "Immaculata is Latin for 'immaculate'.",
+    "explanation": "The title 'Virgo Immaculata' emphasizes Mary's perpetual virginity and her sinless nature—a cornerstone of her veneration in Catholic theology.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Baroque artistic technique, characterized by dramatic contrasts of light and dark, was used to intensify emotional expressions in depictions of the Madonna?",
+    "answers": [
+      "Tenebrism",
+      "Pointillism",
+      "Cubism",
+      "Fauvism"
+    ],
+    "correct": "Tenebrism",
+    "hint": "It relies on stark contrasts between light and shadow.",
+    "explanation": "Tenebrism is a Baroque technique that uses sharp contrasts between light and dark to create a dramatic, emotional effect in religious art, enhancing the portrayal of the Madonna's spiritual intensity.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the doctrine of the Council of Ephesus in 431 AD shape Marian theology?",
+    "answers": [
+      "It declared Mary a saint",
+      "It affirmed Mary as Theotokos, meaning 'God-bearer'",
+      "It minimized Mary's role in salvation",
+      "It established the feast of the Immaculate Conception"
+    ],
+    "correct": "It affirmed Mary as Theotokos, meaning 'God-bearer'",
+    "hint": "This title highlights her role in the mystery of the Incarnation.",
+    "explanation": "The Council of Ephesus in 431 AD declared Mary as Theotokos, or 'God-bearer', affirming that she gave birth to Jesus Christ, who is both divine and human—a fundamental tenet in Marian theology.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which 20th-century philosopher reinterpreted traditional religious symbols—including that of the Madonna—in the context of existential and feminist thought?",
+    "answers": [
+      "Martin Heidegger",
+      "Simone de Beauvoir",
+      "Jacques Derrida",
+      "Erich Fromm"
+    ],
+    "correct": "Simone de Beauvoir",
+    "hint": "She is a renowned feminist philosopher.",
+    "explanation": "Simone de Beauvoir, through her existential and feminist writings, reexamined traditional symbols such as the Madonna, questioning established gender roles and the construction of feminine identity in religious art.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How has modern Pop Art challenged traditional representations of the Madonna?",
+    "answers": [
+      "By adopting classical religious iconography without change",
+      "By infusing religious imagery with contemporary cultural references and bold colors",
+      "By completely rejecting all traditional symbols",
+      "By focusing solely on abstract forms"
+    ],
+    "correct": "By infusing religious imagery with contemporary cultural references and bold colors",
+    "hint": "This movement is known for recontextualizing established images.",
+    "explanation": "Modern Pop Art has reimagined traditional religious images—including those of the Madonna—by incorporating elements from popular culture and using vivid, unexpected visual styles, thereby challenging conventional interpretations.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the Council of Trent (1545–1563) influence the depiction of the Madonna in Catholic art?",
+    "answers": [
+      "It encouraged more dramatic and emotional representations",
+      "It mandated a highly standardized and didactic portrayal",
+      "It banned all representations of the Madonna",
+      "It promoted abstract interpretations"
+    ],
+    "correct": "It mandated a highly standardized and didactic portrayal",
+    "hint": "The Council sought to regulate religious imagery during the Counter-Reformation.",
+    "explanation": "During the Council of Trent, the Catholic Church established guidelines for religious art to ensure clear, doctrinally correct representations; this led to standardized depictions of the Madonna that reinforced official teachings.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which philosopher’s work in the 20th century has been influential in reinterpreting the symbolism of the Madonna through an existential and feminist lens?",
+    "answers": [
+      "Martin Heidegger",
+      "Simone de Beauvoir",
+      "Jacques Derrida",
+      "Erich Fromm"
+    ],
+    "correct": "Simone de Beauvoir",
+    "hint": "She is known for her critical writings on gender and identity.",
+    "explanation": "Simone de Beauvoir’s philosophical works have been influential in challenging traditional views of the Madonna, reinterpreting her symbolism in ways that question established gender norms and explore new dimensions of feminine identity.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Eastern Orthodox tradition, what is the significance of the icon 'Theotokos of the Passion'?",
+    "answers": [
+      "It shows Mary in a state of joy",
+      "It depicts Mary as a warrior",
+      "It shows Mary mourning over Christ's suffering",
+      "It symbolizes Mary's triumph over sin"
+    ],
+    "correct": "It shows Mary mourning over Christ's suffering",
+    "hint": "The icon captures a moment of deep maternal sorrow.",
+    "explanation": "The icon 'Theotokos of the Passion' is a powerful image in Eastern Orthodox art that portrays the Madonna grieving over the suffering of her son, emphasizing the human and emotional aspects of her role in the Passion narrative.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which cultural and intellectual movement during the Renaissance contributed to a renewed, humanized portrayal of the Madonna?",
+    "answers": [
+      "The Reformation",
+      "Humanism",
+      "The Enlightenment",
+      "Romanticism"
+    ],
+    "correct": "Humanism",
+    "hint": "This movement emphasized human dignity and emotion.",
+    "explanation": "Renaissance Humanism led artists and thinkers to portray the Madonna in a more naturalistic and humanized manner, emphasizing her compassion, emotional depth, and the relatable aspects of her character.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did modern theologians and artists reinterpret the traditional image of the Madonna in response to contemporary cultural shifts?",
+    "answers": [
+      "By rejecting all traditional imagery",
+      "By strictly adhering to medieval iconography",
+      "By recontextualizing her image with elements of modern art movements like Pop Art",
+      "By ignoring her historical significance"
+    ],
+    "correct": "By recontextualizing her image with elements of modern art movements like Pop Art",
+    "hint": "Contemporary art often revisits and transforms established symbols.",
+    "explanation": "Modern artists and theologians have reinterpreted the Madonna by incorporating styles and ideas from contemporary art—particularly Pop Art—to challenge and expand upon traditional religious iconography while engaging with modern cultural themes.",
+    "topic": "The Madonna",
+    "difficulty": "hard"
+  }
+]

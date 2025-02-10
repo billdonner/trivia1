@@ -6,8 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		88726ABA2D59009000CA62BD /* vicepresidents.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726AB92D59009000CA62BD /* vicepresidents.json */; };
+		88726ABC2D59009B00CA62BD /* secofstate.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726ABB2D59009B00CA62BD /* secofstate.json */; };
+		88726ABE2D5900A300CA62BD /* history_questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726ABD2D5900A300CA62BD /* history_questions.json */; };
+		88726AC02D59080600CA62BD /* indexv1.html in Resources */ = {isa = PBXBuildFile; fileRef = 88726ABF2D5907FF00CA62BD /* indexv1.html */; };
+		88726AC22D590AB500CA62BD /* listfiles.php in Resources */ = {isa = PBXBuildFile; fileRef = 88726AC12D590AAA00CA62BD /* listfiles.php */; };
+		88726AC62D5968AC00CA62BD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 88726AC52D59689800CA62BD /* index.html */; };
+		88726AC82D5A644400CA62BD /* 500questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726AC72D5A643100CA62BD /* 500questions.json */; };
+		88726ACA2D5A755300CA62BD /* 50more.json in Sources */ = {isa = PBXBuildFile; fileRef = 88726AC92D5A755100CA62BD /* 50more.json */; };
+		88726ACC2D5A7AC300CA62BD /* thecivilwar.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726ACB2D5A7AB200CA62BD /* thecivilwar.json */; };
+		88726ACE2D5A7D0A00CA62BD /* warof1812.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726ACD2D5A7D0A00CA62BD /* warof1812.json */; };
+		88726AD02D5A7DF300CA62BD /* boxerrebellion.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726ACF2D5A7DE600CA62BD /* boxerrebellion.json */; };
+		88726AD22D5A7ED900CA62BD /* madonnas.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726AD12D5A7ED900CA62BD /* madonnas.json */; };
+		88726AD42D5A7F2F00CA62BD /* themadonna.json in Resources */ = {isa = PBXBuildFile; fileRef = 88726AD32D5A7F2F00CA62BD /* themadonna.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		88726AA82D59006300CA62BD /* trivia1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trivia1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88726AB92D59009000CA62BD /* vicepresidents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vicepresidents.json; sourceTree = "<group>"; };
+		88726ABB2D59009B00CA62BD /* secofstate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = secofstate.json; sourceTree = "<group>"; };
+		88726ABD2D5900A300CA62BD /* history_questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = history_questions.json; sourceTree = "<group>"; };
+		88726ABF2D5907FF00CA62BD /* indexv1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = indexv1.html; sourceTree = "<group>"; };
+		88726AC12D590AAA00CA62BD /* listfiles.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = listfiles.php; sourceTree = "<group>"; };
+		88726AC52D59689800CA62BD /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		88726AC72D5A643100CA62BD /* 500questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 500questions.json; sourceTree = "<group>"; };
+		88726AC92D5A755100CA62BD /* 50more.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 50more.json; sourceTree = "<group>"; };
+		88726ACB2D5A7AB200CA62BD /* thecivilwar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thecivilwar.json; sourceTree = "<group>"; };
+		88726ACD2D5A7D0A00CA62BD /* warof1812.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = warof1812.json; sourceTree = "<group>"; };
+		88726ACF2D5A7DE600CA62BD /* boxerrebellion.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = boxerrebellion.json; sourceTree = "<group>"; };
+		88726AD12D5A7ED900CA62BD /* madonnas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = madonnas.json; sourceTree = "<group>"; };
+		88726AD32D5A7F2F00CA62BD /* themadonna.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = themadonna.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +61,19 @@
 		88726A9F2D59006300CA62BD = {
 			isa = PBXGroup;
 			children = (
+				88726ABF2D5907FF00CA62BD /* indexv1.html */,
+				88726AC52D59689800CA62BD /* index.html */,
+				88726AC72D5A643100CA62BD /* 500questions.json */,
+				88726AC92D5A755100CA62BD /* 50more.json */,
+				88726ABB2D59009B00CA62BD /* secofstate.json */,
+				88726ABD2D5900A300CA62BD /* history_questions.json */,
+				88726AB92D59009000CA62BD /* vicepresidents.json */,
+				88726ACB2D5A7AB200CA62BD /* thecivilwar.json */,
+				88726ACF2D5A7DE600CA62BD /* boxerrebellion.json */,
+				88726ACD2D5A7D0A00CA62BD /* warof1812.json */,
+				88726AD12D5A7ED900CA62BD /* madonnas.json */,
+				88726AD32D5A7F2F00CA62BD /* themadonna.json */,
+				88726AC12D590AAA00CA62BD /* listfiles.php */,
 				88726AAA2D59006300CA62BD /* trivia1 */,
 				88726AA92D59006300CA62BD /* Products */,
 			);
@@ -109,6 +151,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88726ABE2D5900A300CA62BD /* history_questions.json in Resources */,
+				88726AD22D5A7ED900CA62BD /* madonnas.json in Resources */,
+				88726ABC2D59009B00CA62BD /* secofstate.json in Resources */,
+				88726ACC2D5A7AC300CA62BD /* thecivilwar.json in Resources */,
+				88726AD02D5A7DF300CA62BD /* boxerrebellion.json in Resources */,
+				88726AD42D5A7F2F00CA62BD /* themadonna.json in Resources */,
+				88726AC02D59080600CA62BD /* indexv1.html in Resources */,
+				88726AC62D5968AC00CA62BD /* index.html in Resources */,
+				88726AC22D590AB500CA62BD /* listfiles.php in Resources */,
+				88726AC82D5A644400CA62BD /* 500questions.json in Resources */,
+				88726ACE2D5A7D0A00CA62BD /* warof1812.json in Resources */,
+				88726ABA2D59009000CA62BD /* vicepresidents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88726ACA2D5A755300CA62BD /* 50more.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

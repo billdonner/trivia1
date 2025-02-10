@@ -1,0 +1,1442 @@
+[
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Treaty of Westphalia",
+    "explanation": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.",
+    "hint": "It was signed in 1648.",
+    "answers": [
+      "The Treaty of Versailles",
+      "The Treaty of Westphalia",
+      "The Congress of Vienna",
+      "The Treaty of Utrecht"
+    ],
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and the Eighty Years' War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "George Washington",
+    "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797.",
+    "hint": "He was also a general during the American Revolution.",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "question": "Who was the first President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Julius Caesar",
+    "explanation": "Julius Caesar was a Roman general and statesman who played a crucial role in the demise of the Roman Republic.",
+    "hint": "He was assassinated on the Ides of March.",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "question": "Who was assassinated on the Ides of March?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Great Fire of London",
+    "explanation": "The Great Fire of London occurred in 1666, destroying much of the city.",
+    "hint": "It happened in 1666.",
+    "answers": [
+      "The Great Plague",
+      "The Blitz",
+      "The Great Fire of London",
+      "The Boston Fire"
+    ],
+    "question": "What disaster struck London in 1666, destroying much of the city?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "The Spanish Armada",
+    "explanation": "In 1588, the Spanish Armada attempted to invade England but was defeated by the English navy and stormy weather.",
+    "hint": "It happened in 1588.",
+    "answers": [
+      "The Spanish Armada",
+      "The Napoleonic Fleet",
+      "The Invincible Armada",
+      "The Royal Armada"
+    ],
+    "question": "What fleet did England defeat in 1588 to secure its naval supremacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Genghis Khan",
+    "explanation": "Genghis Khan founded the Mongol Empire in the 13th century, creating the largest contiguous empire in history.",
+    "hint": "He united the Mongolian tribes.",
+    "answers": [
+      "Attila the Hun",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "question": "Who founded the Mongol Empire?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "1914",
+    "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand of Austria.",
+    "hint": "It started in the early 20th century.",
+    "answers": [
+      "1905",
+      "1914",
+      "1920",
+      "1939"
+    ],
+    "question": "In what year did World War I begin?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "History",
+    "correct": "Battle of Hastings",
+    "explanation": "The Battle of Hastings in 1066 was a pivotal moment in English history, leading to Norman rule under William the Conqueror.",
+    "hint": "It happened in 1066.",
+    "answers": [
+      "Battle of Agincourt",
+      "Battle of Hastings",
+      "Battle of Stamford Bridge",
+      "Battle of Bosworth Field"
+    ],
+    "question": "Which battle in 1066 led to the Norman conquest of England?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  }
+]

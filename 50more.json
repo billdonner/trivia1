@@ -1,0 +1,597 @@
+  [
+    {
+      "question": "What is the capital of France?",
+      "answers": ["Paris", "Rome", "Madrid", "Berlin"],
+      "correct": "Paris",
+      "hint": "It's known as the 'City of Light'.",
+      "explanation": "Paris is the capital and most populous city of France, celebrated for its art, fashion, and culture.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which is the largest planet in our solar system?",
+      "answers": ["Saturn", "Earth", "Jupiter", "Mars"],
+      "correct": "Jupiter",
+      "hint": "It has a massive storm known as the Great Red Spot.",
+      "explanation": "Jupiter is the largest planet in our solar system, distinguished by its iconic storm and numerous moons.",
+      "topic": "Astronomy",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the chemical symbol for Oxygen?",
+      "answers": ["O", "Ox", "Og", "Om"],
+      "correct": "O",
+      "hint": "It's a single letter representing an essential element for life.",
+      "explanation": "Oxygen, represented by 'O', is critical for respiration in most living organisms.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "answers": ["William Shakespeare", "Charles Dickens", "Leo Tolstoy", "Mark Twain"],
+      "correct": "William Shakespeare",
+      "hint": "He is often called England's national poet.",
+      "explanation": "Shakespeare wrote 'Romeo and Juliet', a tragedy that has influenced literature and theater worldwide.",
+      "topic": "Literature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country is nicknamed the Land of the Rising Sun?",
+      "answers": ["China", "Japan", "South Korea", "Thailand"],
+      "correct": "Japan",
+      "hint": "Its flag features a red circle on a white background.",
+      "explanation": "Japan is known as the Land of the Rising Sun due to its eastern position and historical symbolism.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the boiling point of water at sea level in Celsius?",
+      "answers": ["90°C", "100°C", "110°C", "120°C"],
+      "correct": "100°C",
+      "hint": "It's a round number and the standard reference for boiling.",
+      "explanation": "At sea level, water boils at 100°C, a fundamental reference point in thermodynamics.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "correct": "Leonardo da Vinci",
+      "hint": "He was a true Renaissance polymath.",
+      "explanation": "Leonardo da Vinci painted the Mona Lisa, a masterpiece known for its enigmatic smile and artistic innovation.",
+      "topic": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which ocean is the largest on Earth?",
+      "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correct": "Pacific Ocean",
+      "hint": "It covers more area than all of Earth's land combined.",
+      "explanation": "The Pacific Ocean is the largest ocean on Earth, playing a crucial role in climate and ecology.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the primary ingredient in guacamole?",
+      "answers": ["Tomato", "Avocado", "Onion", "Lime"],
+      "correct": "Avocado",
+      "hint": "This creamy fruit is essential for the dip.",
+      "explanation": "Avocado is the primary ingredient in guacamole, giving it its rich, creamy texture and distinctive flavor.",
+      "topic": "Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answers": ["Venus", "Mars", "Mercury", "Jupiter"],
+      "correct": "Mars",
+      "hint": "It shares its name with a Roman god of war.",
+      "explanation": "Mars is called the Red Planet due to its iron oxide-rich soil, which gives it a reddish appearance.",
+      "topic": "Astronomy",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who is known as the King of Pop?",
+      "answers": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+      "correct": "Michael Jackson",
+      "hint": "His album 'Thriller' remains a best-seller.",
+      "explanation": "Michael Jackson, known as the King of Pop, revolutionized music and dance with his groundbreaking performances.",
+      "topic": "Entertainment",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "answers": ["1", "2", "3", "5"],
+      "correct": "2",
+      "hint": "It is the only even prime number.",
+      "explanation": "2 is the smallest prime number and the only even one, forming the basis of prime number theory.",
+      "topic": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which gas do plants primarily absorb from the atmosphere?",
+      "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "correct": "Carbon Dioxide",
+      "hint": "It is used in photosynthesis.",
+      "explanation": "Plants absorb carbon dioxide during photosynthesis, converting it into oxygen and energy.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In which country is the Great Barrier Reef located?",
+      "answers": ["Australia", "USA", "South Africa", "India"],
+      "correct": "Australia",
+      "hint": "This nation is known for its unique wildlife.",
+      "explanation": "The Great Barrier Reef is located off the coast of Australia and is the largest coral reef system in the world.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "answers": ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Gregor Mendel"],
+      "correct": "Alexander Fleming",
+      "hint": "He made a groundbreaking discovery in 1928.",
+      "explanation": "Alexander Fleming discovered penicillin, which revolutionized modern medicine by introducing antibiotics.",
+      "topic": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "answers": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+      "correct": "Barometer",
+      "hint": "It is essential for weather forecasting.",
+      "explanation": "A barometer measures atmospheric pressure, which is key to predicting weather changes.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the largest mammal on Earth?",
+      "answers": ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correct": "Blue Whale",
+      "hint": "It lives in the ocean and can reach enormous lengths.",
+      "explanation": "The blue whale is the largest animal known to have ever existed, with lengths that can exceed 100 feet.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "answers": ["China", "Brazil", "UK", "Russia"],
+      "correct": "Brazil",
+      "hint": "The games were held in Rio de Janeiro.",
+      "explanation": "Brazil hosted the 2016 Summer Olympics, which showcased the country's rich culture and sporting spirit.",
+      "topic": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the primary language spoken in Brazil?",
+      "answers": ["Spanish", "Portuguese", "French", "English"],
+      "correct": "Portuguese",
+      "hint": "It’s unique among South American countries.",
+      "explanation": "Due to its colonial history, Portuguese is the official language of Brazil.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who is the author of the 'Harry Potter' series?",
+      "answers": ["J.K. Rowling", "Stephen King", "Terry Pratchett", "Roald Dahl"],
+      "correct": "J.K. Rowling",
+      "hint": "She created a magical world of wizards.",
+      "explanation": "J.K. Rowling's 'Harry Potter' series has become one of the best-selling and most influential book series in modern literature.",
+      "topic": "Literature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the square root of 64?",
+      "answers": ["6", "7", "8", "9"],
+      "correct": "8",
+      "hint": "It's the number that multiplies by itself to give 64.",
+      "explanation": "The square root of 64 is 8, since 8 multiplied by 8 equals 64.",
+      "topic": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which mineral is essential for strong bones?",
+      "answers": ["Iron", "Calcium", "Potassium", "Sodium"],
+      "correct": "Calcium",
+      "hint": "It's found in dairy products.",
+      "explanation": "Calcium is critical for bone health, and deficiencies can lead to weakened bones and osteoporosis.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "answers": ["Charlotte Brontë", "Jane Austen", "Emily Brontë", "Mary Shelley"],
+      "correct": "Jane Austen",
+      "hint": "She is known for her keen observations of early 19th-century society.",
+      "explanation": "Jane Austen's 'Pride and Prejudice' remains a timeless work of literature known for its wit and social commentary.",
+      "topic": "Literature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which continent is sometimes referred to as the 'Dark Continent'?",
+      "answers": ["Asia", "Africa", "Europe", "South America"],
+      "correct": "Africa",
+      "hint": "This term has historical roots related to exploration.",
+      "explanation": "Africa was historically called the 'Dark Continent' due to the limited knowledge Western explorers had of the interior.",
+      "topic": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "answers": ["Dollar", "Yen", "Won", "Euro"],
+      "correct": "Yen",
+      "hint": "It starts with 'Y'.",
+      "explanation": "The yen is the official currency of Japan, reflecting the country’s economic system.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which ancient civilization built the pyramids of Giza?",
+      "answers": ["Romans", "Mayans", "Egyptians", "Greeks"],
+      "correct": "Egyptians",
+      "hint": "They built monumental structures along the Nile.",
+      "explanation": "The Egyptians built the pyramids at Giza as tombs for their pharaohs, showcasing their architectural prowess.",
+      "topic": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which sport is associated with a 'home run'?",
+      "answers": ["Basketball", "Baseball", "Soccer", "Cricket"],
+      "correct": "Baseball",
+      "hint": "It involves hitting a ball out of the park.",
+      "explanation": "In baseball, a home run occurs when a player hits the ball out of the playing field, scoring a run.",
+      "topic": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the primary ingredient in traditional sushi?",
+      "answers": ["Rice", "Noodles", "Bread", "Potato"],
+      "correct": "Rice",
+      "hint": "It is seasoned with vinegar.",
+      "explanation": "Rice is the staple of traditional sushi, seasoned with vinegar and combined with fish or vegetables.",
+      "topic": "Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country is known for inventing paper?",
+      "answers": ["India", "China", "Egypt", "Greece"],
+      "correct": "China",
+      "hint": "This invention revolutionized record-keeping.",
+      "explanation": "Paper was invented in China around the 2nd century BCE and has been crucial for communication and culture.",
+      "topic": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which musical instrument has keys, pedals, and strings?",
+      "answers": ["Violin", "Guitar", "Piano", "Flute"],
+      "correct": "Piano",
+      "hint": "It is often used in classical music.",
+      "explanation": "The piano produces sound through strings struck by hammers, activated by keys and pedals.",
+      "topic": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the capital city of Canada?",
+      "answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "correct": "Ottawa",
+      "hint": "It is located in Ontario.",
+      "explanation": "Ottawa is the capital of Canada, chosen for its strategic location between the country's major cities.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which ocean is known for its 'Ring of Fire'?",
+      "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correct": "Pacific Ocean",
+      "hint": "It's home to numerous active volcanoes.",
+      "explanation": "The Pacific Ocean is bordered by the Ring of Fire, an area of frequent earthquakes and volcanic activity.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the boiling point of water in Fahrenheit at sea level?",
+      "answers": ["180°F", "212°F", "250°F", "275°F"],
+      "correct": "212°F",
+      "hint": "It’s just over 210°F.",
+      "explanation": "At sea level, water boils at 212°F, which is equivalent to 100°C.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who is credited with inventing the telephone?",
+      "answers": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"],
+      "correct": "Alexander Graham Bell",
+      "hint": "His invention revolutionized global communication.",
+      "explanation": "Alexander Graham Bell is credited with inventing the telephone in 1876, which transformed communication.",
+      "topic": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the primary gas found in Earth's atmosphere?",
+      "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "correct": "Nitrogen",
+      "hint": "It makes up about 78% of the atmosphere.",
+      "explanation": "Nitrogen is the most abundant gas in Earth's atmosphere, making up roughly 78% of it.",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which author created the detective character Sherlock Holmes?",
+      "answers": ["Agatha Christie", "Arthur Conan Doyle", "Edgar Allan Poe", "Raymond Chandler"],
+      "correct": "Arthur Conan Doyle",
+      "hint": "His stories remain popular to this day.",
+      "explanation": "Arthur Conan Doyle created the iconic detective Sherlock Holmes, whose adventures have been celebrated worldwide.",
+      "topic": "Literature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which U.S. state is famous for its Napa Valley wine region?",
+      "answers": ["California", "Oregon", "New York", "Texas"],
+      "correct": "California",
+      "hint": "It is on the West Coast.",
+      "explanation": "California is renowned for Napa Valley, one of the premier wine-producing regions in the world.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "answers": ["Sahara", "Gobi", "Kalahari", "Antarctic Desert"],
+      "correct": "Antarctic Desert",
+      "hint": "Not all deserts are hot.",
+      "explanation": "The Antarctic Desert is the largest desert in the world, defined by its extremely low precipitation rather than high temperatures.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who invented the light bulb?",
+      "answers": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "James Watt"],
+      "correct": "Thomas Edison",
+      "hint": "He held over 1,000 patents.",
+      "explanation": "Thomas Edison is often credited with inventing the light bulb, significantly advancing modern technology.",
+      "topic": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country is known for its fjords?",
+      "answers": ["Sweden", "Finland", "Norway", "Denmark"],
+      "correct": "Norway",
+      "hint": "This Scandinavian country features dramatic coastal inlets.",
+      "explanation": "Norway is famous for its fjords, which are steep, glacially carved inlets along its rugged coastline.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the capital of Italy?",
+      "answers": ["Rome", "Milan", "Naples", "Florence"],
+      "correct": "Rome",
+      "hint": "It is known as the Eternal City.",
+      "explanation": "Rome is the capital of Italy, renowned for its ancient history and monumental architecture.",
+      "topic": "Geography",
+      "difficulty": "easy"
+    },
+
+    {
+      "question": "What ancient civilization built Machu Picchu?",
+      "answers": ["Aztec", "Inca", "Maya", "Olmec"],
+      "correct": "Inca",
+      "hint": "It is located high in the Andes of Peru.",
+      "explanation": "Machu Picchu was built by the Inca civilization as a royal estate and religious site.",
+      "topic": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which battle is considered the turning point of the American Civil War?",
+      "answers": ["Battle of Antietam", "Battle of Gettysburg", "Battle of Chancellorsville", "Battle of Bull Run"],
+      "correct": "Battle of Gettysburg",
+      "hint": "Fought in 1863, it marked a major shift in the war's momentum.",
+      "explanation": "The Battle of Gettysburg is widely regarded as the turning point in the Civil War, halting the Confederacy's advance into the North.",
+      "topic": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the chemical formula for table salt?",
+      "answers": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+      "correct": "NaCl",
+      "hint": "It consists of sodium and chlorine.",
+      "explanation": "Table salt is chemically composed of sodium chloride (NaCl).",
+      "topic": "Science",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who composed the opera 'The Magic Flute'?",
+      "answers": ["Giuseppe Verdi", "Richard Wagner", "Wolfgang Amadeus Mozart", "Johann Strauss II"],
+      "correct": "Wolfgang Amadeus Mozart",
+      "hint": "He was a prolific composer of the Classical era.",
+      "explanation": "Mozart composed 'The Magic Flute', an opera that remains celebrated for its enchanting music and story.",
+      "topic": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In which year did the Berlin Wall fall?",
+      "answers": ["1987", "1989", "1991", "1993"],
+      "correct": "1989",
+      "hint": "It signaled the end of the Cold War.",
+      "explanation": "The Berlin Wall fell in 1989, marking a major turning point in European history and the end of Cold War divisions.",
+      "topic": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the capital of Mongolia?",
+      "answers": ["Ulaanbaatar", "Astana", "Tashkent", "Bishkek"],
+      "correct": "Ulaanbaatar",
+      "hint": "It is one of the coldest capitals in the world.",
+      "explanation": "Ulaanbaatar is the capital of Mongolia and is known for its harsh winters and unique culture.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which physicist developed the theory of general relativity?",
+      "answers": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Galileo Galilei"],
+      "correct": "Albert Einstein",
+      "hint": "His famous equation is E=mc².",
+      "explanation": "Albert Einstein formulated the theory of general relativity, which revolutionized our understanding of gravity and spacetime.",
+      "topic": "Science",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who wrote 'The Brothers Karamazov'?",
+      "answers": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Vladimir Nabokov"],
+      "correct": "Fyodor Dostoevsky",
+      "hint": "A Russian novelist known for exploring psychological and philosophical themes.",
+      "explanation": "Dostoevsky wrote 'The Brothers Karamazov', a complex novel that delves into themes of faith, doubt, and morality.",
+      "topic": "Literature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "answers": ["Gold", "Diamond", "Iron", "Quartz"],
+      "correct": "Diamond",
+      "hint": "It is often used in cutting tools.",
+      "explanation": "Diamond is the hardest natural material, which makes it useful for industrial applications as well as jewelry.",
+      "topic": "Science",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which country was formerly known as Ceylon?",
+      "answers": ["Sri Lanka", "Bangladesh", "Myanmar", "Cambodia"],
+      "correct": "Sri Lanka",
+      "hint": "It's an island nation in the Indian Ocean.",
+      "explanation": "Sri Lanka was known as Ceylon until 1972, reflecting its colonial history under the British.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who was the British Prime Minister during most of World War II?",
+      "answers": ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "Margaret Thatcher"],
+      "correct": "Winston Churchill",
+      "hint": "He is renowned for his wartime leadership and speeches.",
+      "explanation": "Winston Churchill led Britain through World War II and is remembered as one of the greatest leaders of the 20th century.",
+      "topic": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the derivative of sin(x)?",
+      "answers": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+      "correct": "cos(x)",
+      "hint": "It starts with a 'c'.",
+      "explanation": "According to calculus, the derivative of sin(x) is cos(x).",
+      "topic": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which element has the highest melting point?",
+      "answers": ["Tungsten", "Iron", "Carbon", "Copper"],
+      "correct": "Tungsten",
+      "hint": "It is often used in lightbulb filaments.",
+      "explanation": "Tungsten has the highest melting point of all elements, making it indispensable in high-temperature applications.",
+      "topic": "Science",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who is known as the 'Father of Computers'?",
+      "answers": ["Alan Turing", "Charles Babbage", "Bill Gates", "Steve Jobs"],
+      "correct": "Charles Babbage",
+      "hint": "He conceptualized the first mechanical computer.",
+      "explanation": "Charles Babbage is widely regarded as the 'Father of Computers' due to his designs of early computational devices.",
+      "topic": "Technology",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which U.S. President signed the Emancipation Proclamation?",
+      "answers": ["Abraham Lincoln", "Ulysses S. Grant", "Andrew Johnson", "Theodore Roosevelt"],
+      "correct": "Abraham Lincoln",
+      "hint": "He is often depicted in top hats.",
+      "explanation": "Abraham Lincoln issued the Emancipation Proclamation in 1863, a landmark document in American history.",
+      "topic": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the longest river in Asia?",
+      "answers": ["Mekong", "Yangtze", "Ganges", "Yellow River"],
+      "correct": "Yangtze",
+      "hint": "It flows entirely within China.",
+      "explanation": "The Yangtze River is the longest river in Asia, playing a crucial role in the history and economy of China.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who painted 'Guernica'?",
+      "answers": ["Salvador Dalí", "Pablo Picasso", "Henri Matisse", "Joan Miró"],
+      "correct": "Pablo Picasso",
+      "hint": "He was a pioneering Cubist.",
+      "explanation": "Picasso painted 'Guernica' as a powerful protest against the bombing of a Basque town during the Spanish Civil War.",
+      "topic": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the capital of Iceland?",
+      "answers": ["Reykjavik", "Oslo", "Helsinki", "Copenhagen"],
+      "correct": "Reykjavik",
+      "hint": "It's the northernmost capital of a sovereign state.",
+      "explanation": "Reykjavik is the capital of Iceland and stands as the world's northernmost capital city.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which Shakespeare play features the character Shylock?",
+      "answers": ["Hamlet", "Othello", "The Merchant of Venice", "Macbeth"],
+      "correct": "The Merchant of Venice",
+      "hint": "It explores themes of mercy and justice.",
+      "explanation": "Shylock is a central character in 'The Merchant of Venice', a play that remains controversial for its portrayal of prejudice and justice.",
+      "topic": "Literature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the smallest country in the world by area?",
+      "answers": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+      "correct": "Vatican City",
+      "hint": "It's a city-state within Rome.",
+      "explanation": "Vatican City is the smallest country in the world, both by area and population.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which scientist is famous for his laws of motion?",
+      "answers": ["Galileo Galilei", "Albert Einstein", "Isaac Newton", "Nikola Tesla"],
+      "correct": "Isaac Newton",
+      "hint": "He formulated the laws that underpin classical mechanics.",
+      "explanation": "Isaac Newton's laws of motion form the cornerstone of classical physics and have influenced centuries of scientific thought.",
+      "topic": "Science",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answers": ["Rosalind Franklin", "Marie Curie", "Dorothy Hodgkin", "Barbara McClintock"],
+      "correct": "Marie Curie",
+      "hint": "She won Nobel Prizes in two different scientific fields.",
+      "explanation": "Marie Curie was the first woman to receive a Nobel Prize and remains the only person to win Nobel Prizes in two different sciences—Physics and Chemistry.",
+      "topic": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "answers": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+      "correct": "Ottawa",
+      "hint": "It was chosen for its central location.",
+      "explanation": "Ottawa is the capital of Canada, selected for its geographical location and political neutrality.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the main language spoken in Brazil?",
+      "answers": ["Spanish", "Portuguese", "French", "English"],
+      "correct": "Portuguese",
+      "hint": "It is a legacy of colonial history.",
+      "explanation": "Portuguese is the official language of Brazil, reflecting its colonial past under Portugal.",
+      "topic": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which battle marked the definitive defeat of Napoleon Bonaparte?",
+      "answers": ["Battle of Austerlitz", "Battle of Trafalgar", "Battle of Waterloo", "Battle of Borodino"],
+      "correct": "Battle of Waterloo",
+      "hint": "It occurred in 1815.",
+      "explanation": "The Battle of Waterloo in 1815 ended Napoleon's rule and marked a turning point in European history.",
+      "topic": "History",
+      "difficulty": "hard"
+    }
+  ]

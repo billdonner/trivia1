@@ -1,0 +1,1502 @@
+[
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams served as Vice President under George Washington. He is known as the first Vice President.",
+    "hint": "Hint: He was the first to hold the office.",
+    "answers": [
+      "John Adams",
+      "Thomas Jefferson",
+      "Aaron Burr",
+      "John C. Calhoun"
+    ],
+    "question": "Easy Question #1: Who served as Vice President under George Washington?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams. He later became the third President.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Thomas Jefferson",
+      "Aaron Burr",
+      "John C. Calhoun",
+      "John Adams"
+    ],
+    "question": "Easy Question #2: Who served as Vice President under John Adams?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr served as Vice President under Thomas Jefferson and is famous for his duel with Alexander Hamilton.",
+    "hint": "Hint: He is known for his infamous duel.",
+    "answers": [
+      "Aaron Burr",
+      "John Adams",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Easy Question #3: Who served as Vice President under Thomas Jefferson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun served as Vice President under John Quincy Adams and Andrew Jackson and was noted for his defense of states' rights.",
+    "hint": "Hint: He was noted for defending states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "Martin Van Buren"
+    ],
+    "question": "Easy Question #4: Who served as Vice President under John Quincy Adams/Andrew Jackson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson before later becoming President.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #5: Who served as Vice President under Andrew Jackson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson served as Vice President under Martin Van Buren and had a controversial tenure.",
+    "hint": "Hint: His tenure was controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #6: Who served as Vice President under Martin Van Buren?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler served as Vice President under William Henry Harrison and became President after Harrison's death.",
+    "hint": "Hint: He became President after his predecessor's death.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "John Adams",
+      "Martin Van Buren"
+    ],
+    "question": "Easy Question #7: Who served as Vice President under William Henry Harrison?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Richard Nixon until his resignation due to scandal.",
+    "hint": "Hint: He resigned due to scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Easy Question #8: Who served as Vice President under Richard Nixon and later resigned?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President and later became President after Nixon's resignation.",
+    "hint": "Hint: He assumed the presidency after Nixon resigned.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Easy Question #9: Who became President after serving as Vice President under Richard Nixon?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President of the United States, serving under President Joe Biden.",
+    "hint": "Hint: She is the first female VP.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Easy Question #10: Who is the first female Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams was the first Vice President of the United States, serving under George Washington from 1789 to 1797.",
+    "hint": "Hint: He was the first to hold the office.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John Tyler"
+    ],
+    "question": "Easy Question #11: Who was the first Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams and later became the third President of the United States.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Easy Question #12: Who served as Vice President under John Adams before becoming President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr served as Vice President under Thomas Jefferson and is infamously remembered for his duel with Alexander Hamilton.",
+    "hint": "Hint: He dueled Alexander Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Easy Question #13: Who is infamous for dueling Alexander Hamilton while serving as Vice President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun served as Vice President under John Quincy Adams and Andrew Jackson and was known for his defense of states' rights.",
+    "hint": "Hint: He was a staunch defender of states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #14: Which Vice President was noted for his defense of states' rights?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later became President.",
+    "hint": "Hint: He later ascended to the presidency.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "John Adams"
+    ],
+    "question": "Easy Question #15: Who served as Vice President under Andrew Jackson and later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson served as Vice President under Martin Van Buren and is remembered for his controversial tenure.",
+    "hint": "Hint: His tenure was marked by controversy.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #16: Who served as Vice President under Martin Van Buren?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler served as Vice President under William Henry Harrison and became President after Harrison's death.",
+    "hint": "Hint: He assumed the presidency after his predecessor died.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #17: Who became President after serving as Vice President under William Henry Harrison?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Richard Nixon until his resignation in 1973 due to scandal.",
+    "hint": "Hint: He resigned amid scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Easy Question #18: Which Vice President resigned under President Nixon?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later assumed the presidency after Nixon's resignation.",
+    "hint": "Hint: He became President after Nixon resigned.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Easy Question #19: Who served as Vice President under Nixon and then became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President of the United States, serving under President Joe Biden.",
+    "hint": "Hint: She made history as the first woman in this role.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Easy Question #20: Who is the first female Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams, the first Vice President, served under George Washington from 1789 to 1797.",
+    "hint": "Hint: He was the first to hold the office.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Easy Question #21: Who was the first Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams and later became the third President.",
+    "hint": "Hint: He later became President of the U.S.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Easy Question #22: Who served as Vice President under John Adams before becoming President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, remembered for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: He is known for his famous duel.",
+    "answers": [
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John Adams",
+      "John C. Calhoun"
+    ],
+    "question": "Easy Question #23: Which Vice President dueled Alexander Hamilton?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun served as Vice President under John Quincy Adams/Andrew Jackson and was noted for his strong advocacy of states' rights.",
+    "hint": "Hint: Known for his defense of states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #24: Which Vice President was famous for defending states' rights?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later became President of the United States.",
+    "hint": "Hint: He later ascended to the presidency.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #25: Who served as Vice President under Andrew Jackson before becoming President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, noted for a controversial tenure, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His tenure was marked by controversy.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #26: Who served as Vice President under Martin Van Buren?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler served as Vice President under William Henry Harrison and became President after Harrison died.",
+    "hint": "Hint: He assumed the presidency after Harrison's death.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #27: Who became President after serving as Vice President under William Henry Harrison?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Richard Nixon until his resignation in 1973 due to scandal.",
+    "hint": "Hint: He resigned because of scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Easy Question #28: Which Vice President resigned under President Nixon?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later became President after Nixon's resignation.",
+    "hint": "Hint: He ascended to the presidency following a resignation.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Easy Question #29: Who served as Vice President under Nixon and then became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President of the United States, serving under President Joe Biden.",
+    "hint": "Hint: She made history as the first woman in this role.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Easy Question #30: Who is the first female Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams was the first Vice President of the United States, serving under George Washington from 1789 to 1797.",
+    "hint": "Hint: He was the very first to hold the office.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Easy Question #31: Who was the first Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams and later became the third President of the United States.",
+    "hint": "Hint: He later assumed the presidency.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Easy Question #32: Who served as Vice President under John Adams before becoming President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, remembered for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: Known for dueling Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Easy Question #33: Which Vice President is known for his duel with Alexander Hamilton?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun served as Vice President under John Quincy Adams and Andrew Jackson and was renowned for defending states' rights.",
+    "hint": "Hint: Famous for his defense of states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #34: Who served as Vice President known for defending states' rights?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later became President.",
+    "hint": "Hint: He later became the 8th President.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #35: Who served as Vice President under Andrew Jackson and later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson served as Vice President under Martin Van Buren and is remembered for his controversial tenure.",
+    "hint": "Hint: His tenure was controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #36: Who served as Vice President under Martin Van Buren?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler served as Vice President under William Henry Harrison and became President upon Harrison's death.",
+    "hint": "Hint: He succeeded Harrison.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #37: Who became President after serving as Vice President under William Henry Harrison?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Richard Nixon until he resigned amid scandal in 1973.",
+    "hint": "Hint: He resigned due to scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Easy Question #38: Which Vice President resigned under President Nixon?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later assumed the presidency after Nixon's resignation.",
+    "hint": "Hint: He became President after Nixon.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Easy Question #39: Who served as Vice President under Nixon and later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President, serving under President Joe Biden.",
+    "hint": "Hint: The first female to hold the office.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Easy Question #40: Who is the first female Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams was the first Vice President, serving under George Washington from 1789 to 1797.",
+    "hint": "Hint: He was the first to hold the position.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Easy Question #41: Who was the first Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams and later became the third President of the United States.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Easy Question #42: Who served as Vice President under John Adams before later becoming President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, famous for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: Known for his duel with Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Easy Question #43: Which Vice President is remembered for dueling Alexander Hamilton?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun, known for defending states' rights, served as Vice President under John Quincy Adams/Andrew Jackson.",
+    "hint": "Hint: Famous for his stance on states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #44: Who served as Vice President and was noted for his defense of states' rights?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later became President.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Easy Question #45: Who served as Vice President under Andrew Jackson and then became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, remembered for his controversial tenure, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His tenure was controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #46: Who served as Vice President under Martin Van Buren?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler served as Vice President under William Henry Harrison and became President after Harrison's death.",
+    "hint": "Hint: He became President after Harrison died.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Easy Question #47: Which Vice President assumed the presidency after William Henry Harrison's death?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Richard Nixon and resigned in 1973 amid scandal.",
+    "hint": "Hint: He resigned due to scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Easy Question #48: Which Vice President resigned under Nixon?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later became President following Nixon's resignation.",
+    "hint": "Hint: He became President after Nixon resigned.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Easy Question #49: Who served as Vice President under Nixon and then became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President of the United States, serving under President Joe Biden.",
+    "hint": "Hint: The first woman to hold the office.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Easy Question #50: Who is the first female Vice President of the United States?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams was the first Vice President of the United States, serving under George Washington.",
+    "hint": "Hint: The very first VP.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Hard Question #51: Which Vice President served under George Washington and set the precedent as the first officeholder?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson, who served as Vice President under John Adams, later became the third President of the United States.",
+    "hint": "Hint: He is also known as the principal author of the Declaration of Independence.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Hard Question #52: Which Vice President later became the third President of the United States?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, remembered for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: Infamous for dueling Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Hard Question #53: Which Vice President is infamous for his duel with Alexander Hamilton?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun, who served under John Quincy Adams and Andrew Jackson, was noted for his ardent defense of states' rights.",
+    "hint": "Hint: Known for his strong defense of states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #54: Which Vice President was renowned for his defense of states' rights?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later became President.",
+    "hint": "Hint: He later became the 8th President.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #55: Which Vice President under Andrew Jackson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, known for his controversial tenure, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His tenure was highly controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #56: Which Vice President served under Martin Van Buren and is remembered for his controversial tenure?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler, who served as Vice President under William Henry Harrison, became President after Harrison's death.",
+    "hint": "Hint: He succeeded Harrison.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #57: Which Vice President assumed the presidency after the death of William Henry Harrison?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Richard Nixon until he resigned in 1973 amid scandal.",
+    "hint": "Hint: His tenure ended with a resignation.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Hard Question #58: Which Vice President resigned amid scandal under Nixon?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later became President after Nixon's resignation.",
+    "hint": "Hint: He is the only person to have served as both VP and President without election to either office.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Hard Question #59: Who served as Vice President under Nixon and then became President after Nixon's resignation?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is known as the first female Vice President of the United States, serving under President Joe Biden.",
+    "hint": "Hint: She made history as the first woman in the role.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Hard Question #60: Which Vice President broke the glass ceiling as the first woman to hold the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams, the first Vice President, set the precedent for the office by serving under George Washington.",
+    "hint": "Hint: He was the inaugural holder of the office.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Hard Question #61: Which Vice President was the very first to serve under George Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams and later became the third President of the United States.",
+    "hint": "Hint: He later ascended to the presidency.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Hard Question #62: Which Vice President under John Adams later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, infamous for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: He is most known for his duel.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Hard Question #63: Which Vice President is best remembered for dueling Alexander Hamilton?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun, serving under John Quincy Adams and Andrew Jackson, was a staunch advocate of states' rights.",
+    "hint": "Hint: He is known for his defense of states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #64: Which Vice President was renowned for his advocacy of states' rights?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later ascended to the presidency.",
+    "hint": "Hint: He later became the 8th President of the U.S.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #65: Which Vice President under Andrew Jackson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, whose tenure was mired in controversy, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His term was considered controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #66: Which Vice President under Martin Van Buren is remembered for his controversial tenure?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler, who served as Vice President under William Henry Harrison, assumed the presidency after Harrison died.",
+    "hint": "Hint: He succeeded Harrison.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #67: Which Vice President assumed the presidency after William Henry Harrison's death?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Nixon until his resignation amid scandal in 1973.",
+    "hint": "Hint: He resigned due to scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Hard Question #68: Which Vice President resigned amid scandal under President Nixon?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later became President after Nixon's resignation.",
+    "hint": "Hint: He became President without being elected as VP or President.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Hard Question #69: Who served as Vice President under Nixon and later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris, known for breaking the glass ceiling, is the first female Vice President, serving under President Joe Biden.",
+    "hint": "Hint: She made history as the first woman to hold the office.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Hard Question #70: Which Vice President is recognized as the first woman to hold the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams, as the first Vice President, served under George Washington and established the role in U.S. government.",
+    "hint": "Hint: The inaugural Vice President.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Hard Question #71: Which Vice President was the very first to serve under George Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams before later becoming the third President of the United States.",
+    "hint": "Hint: He later ascended to the presidency.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Hard Question #72: Which Vice President under John Adams later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, best remembered for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: Infamous for his duel with Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Hard Question #73: Which Vice President is best known for his duel with Alexander Hamilton?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun, noted for his strong stance on states' rights, served as Vice President under John Quincy Adams and Andrew Jackson.",
+    "hint": "Hint: Known for defending states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #74: Which Vice President was famous for his advocacy of states' rights?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren, who served as Vice President under Andrew Jackson, later became President of the United States.",
+    "hint": "Hint: He later became the 8th President.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #75: Which Vice President under Andrew Jackson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, remembered for his controversial tenure, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His term was controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #76: Which Vice President under Martin Van Buren is remembered for a controversial tenure?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler, who served as Vice President under William Henry Harrison, assumed the presidency after Harrison's death.",
+    "hint": "Hint: He succeeded Harrison.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #77: Which Vice President assumed the presidency after the death of William Henry Harrison?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Nixon until his resignation in 1973 amid scandal.",
+    "hint": "Hint: He resigned amid scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Hard Question #78: Which Vice President resigned during Nixon's presidency?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later became President after Nixon's resignation.",
+    "hint": "Hint: He became President without being elected.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Hard Question #79: Which Vice President under Nixon later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is known as the first female Vice President of the United States, serving under President Joe Biden.",
+    "hint": "Hint: The first woman in this role.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Hard Question #80: Which Vice President made history as the first female to hold the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams, as the first Vice President, served under George Washington and established the role for future officeholders.",
+    "hint": "Hint: He was the inaugural Vice President.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Hard Question #81: Which Vice President was the inaugural holder of the office under George Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams before later becoming the third President.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Hard Question #82: Which Vice President under John Adams later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr is best remembered for his duel with Alexander Hamilton and served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: Infamous for his duel with Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Hard Question #83: Which Vice President is infamously remembered for dueling Alexander Hamilton?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun, noted for his defense of states' rights, served as Vice President under John Quincy Adams and Andrew Jackson.",
+    "hint": "Hint: He strongly defended states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #84: Which Vice President was known for his strong advocacy of states' rights?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren served as Vice President under Andrew Jackson and later became President.",
+    "hint": "Hint: He later ascended to the presidency.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #85: Which Vice President under Andrew Jackson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, whose tenure was controversial, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His term was marked by controversy.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #86: Which Vice President under Martin Van Buren is remembered for a controversial tenure?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler served as Vice President under William Henry Harrison and then assumed the presidency upon Harrison's death.",
+    "hint": "Hint: He succeeded Harrison.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #87: Which Vice President assumed the presidency after William Henry Harrison's death?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Nixon until his resignation in 1973 amid scandal.",
+    "hint": "Hint: He resigned due to scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Hard Question #88: Which Vice President resigned amid scandal under Nixon?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and then became President after Nixon's resignation.",
+    "hint": "Hint: He became President after Nixon.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Hard Question #89: Which Vice President under Nixon later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President, serving under President Joe Biden.",
+    "hint": "Hint: The first woman in this role.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Hard Question #90: Which Vice President is known as the first female to hold the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Adams",
+    "explanation": "John Adams, the inaugural Vice President, served under George Washington and set many precedents for the office.",
+    "hint": "Hint: He was the first ever Vice President.",
+    "answers": [
+      "John Adams",
+      "Aaron Burr",
+      "Thomas Jefferson",
+      "John C. Calhoun"
+    ],
+    "question": "Hard Question #91: Which Vice President set the precedent as the first officeholder under George Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson served as Vice President under John Adams and later became the third President of the United States.",
+    "hint": "Hint: He later became President.",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Aaron Burr",
+      "Martin Van Buren"
+    ],
+    "question": "Hard Question #92: Which Vice President under John Adams later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Aaron Burr",
+    "explanation": "Aaron Burr, best known for his duel with Alexander Hamilton, served as Vice President under Thomas Jefferson.",
+    "hint": "Hint: Infamous for his duel with Hamilton.",
+    "answers": [
+      "Aaron Burr",
+      "John C. Calhoun",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "question": "Hard Question #93: Which Vice President is most infamously remembered for dueling Alexander Hamilton?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John C. Calhoun",
+    "explanation": "John C. Calhoun, who served under John Quincy Adams and Andrew Jackson, was noted for his strong stance on states' rights.",
+    "hint": "Hint: Renowned for defending states' rights.",
+    "answers": [
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Martin Van Buren",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #94: Which Vice President was noted for his strong defense of states' rights?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Martin Van Buren",
+    "explanation": "Martin Van Buren, who served as Vice President under Andrew Jackson, later became President.",
+    "hint": "Hint: He later became the 8th President.",
+    "answers": [
+      "Martin Van Buren",
+      "John C. Calhoun",
+      "Aaron Burr",
+      "Richard Mentor Johnson"
+    ],
+    "question": "Hard Question #95: Which Vice President under Andrew Jackson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Richard Mentor Johnson",
+    "explanation": "Richard Mentor Johnson, known for a controversial tenure, served as Vice President under Martin Van Buren.",
+    "hint": "Hint: His term was notably controversial.",
+    "answers": [
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "John Tyler",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #96: Which Vice President under Martin Van Buren is remembered for a controversial term?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "John Tyler",
+    "explanation": "John Tyler, who served as Vice President under William Henry Harrison, assumed the presidency following Harrison's death.",
+    "hint": "Hint: He succeeded Harrison.",
+    "answers": [
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Martin Van Buren",
+      "Aaron Burr"
+    ],
+    "question": "Hard Question #97: Which Vice President assumed the presidency after the death of William Henry Harrison?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Spiro Agnew",
+    "explanation": "Spiro Agnew served as Vice President under Nixon until he resigned amid scandal in 1973.",
+    "hint": "Hint: He resigned due to scandal.",
+    "answers": [
+      "Spiro Agnew",
+      "John Tyler",
+      "Richard Mentor Johnson",
+      "Gerald Ford"
+    ],
+    "question": "Hard Question #98: Which Vice President resigned amid scandal during Nixon's presidency?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Gerald Ford",
+    "explanation": "Gerald Ford served as Vice President under Nixon and later became President after Nixon's resignation.",
+    "hint": "Hint: He became President without election.",
+    "answers": [
+      "Gerald Ford",
+      "Spiro Agnew",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "question": "Hard Question #99: Which Vice President under Nixon later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Vice Presidents",
+    "correct": "Kamala Harris",
+    "explanation": "Kamala Harris is the first female Vice President, serving under President Joe Biden and making history with her election.",
+    "hint": "Hint: The first woman to hold the office.",
+    "answers": [
+      "Kamala Harris",
+      "Dick Cheney",
+      "Al Gore",
+      "Joe Biden"
+    ],
+    "question": "Hard Question #100: Which Vice President is recognized as the first female to serve in the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  }
+]

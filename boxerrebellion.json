@@ -1,0 +1,674 @@
+[
+  {
+    "question": "What was the Boxer Rebellion?",
+    "answers": [
+      "A peasant revolt in Russia",
+      "A cultural festival in Japan",
+      "An anti-foreign uprising in China",
+      "A rebellion in India"
+    ],
+    "correct": "An anti-foreign uprising in China",
+    "hint": "It took place in China at the turn of the 20th century.",
+    "explanation": "The Boxer Rebellion, also known as the Yihetuan Movement, was an anti-foreign, anti-Christian uprising in China between 1899 and 1901.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When did the Boxer Rebellion take place?",
+    "answers": [
+      "1899-1901",
+      "1914-1918",
+      "1861-1865",
+      "1945-1949"
+    ],
+    "correct": "1899-1901",
+    "hint": "It occurred just before the 20th century.",
+    "explanation": "The uprising occurred from 1899 to 1901, marking a turbulent period at the end of the 19th century and the start of the 20th.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which dynasty was ruling China during the Boxer Rebellion?",
+    "answers": [
+      "Ming",
+      "Qing",
+      "Tang",
+      "Han"
+    ],
+    "correct": "Qing",
+    "hint": "This was the last imperial dynasty of China.",
+    "explanation": "The Qing dynasty was in power during the Boxer Rebellion; its inability to effectively manage the crisis contributed to its eventual downfall.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who were the Boxers?",
+    "answers": [
+      "Christian missionaries",
+      "European diplomats",
+      "Chinese martial artists with anti-foreign beliefs",
+      "Japanese samurai"
+    ],
+    "correct": "Chinese martial artists with anti-foreign beliefs",
+    "hint": "They were members of secret societies practicing martial arts.",
+    "explanation": "The Boxers were largely secret society members who believed that their martial arts and spiritual practices could protect them from harm, and they were fervently anti-foreign and anti-Christian.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country was not a member of the Eight-Nation Alliance that intervened in the Boxer Rebellion?",
+    "answers": [
+      "Spain",
+      "United States",
+      "Germany",
+      "Japan"
+    ],
+    "correct": "Spain",
+    "hint": "Think of a European power that did not participate.",
+    "explanation": "The Eight-Nation Alliance included Japan, Russia, Britain, France, Germany, Italy, Austria-Hungary, and the United States. Spain was not a member.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was one of the major triggers of the Boxer Rebellion?",
+    "answers": [
+      "A natural disaster",
+      "Increasing foreign influence and exploitation",
+      "A peasant tax revolt",
+      "A military coup"
+    ],
+    "correct": "Increasing foreign influence and exploitation",
+    "hint": "It was a reaction against foreign interference.",
+    "explanation": "Growing foreign influence in trade, politics, and religion—along with economic exploitation—helped spark the anti-foreign sentiments that led to the uprising.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did many Boxers believe about their martial arts training?",
+    "answers": [
+      "It would make them invisible",
+      "It would grant them magical powers to repel bullets",
+      "It would turn them into scholars",
+      "It would allow them to speak foreign languages"
+    ],
+    "correct": "It would grant them magical powers to repel bullets",
+    "hint": "They trusted in spiritual invulnerability.",
+    "explanation": "Many Boxers believed that their rigorous martial arts and ritual practices would make them impervious to bullets and harm—a belief that fueled their resistance.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which city was a major center of Boxer activity?",
+    "answers": [
+      "Beijing",
+      "Shanghai",
+      "Guangzhou",
+      "Hong Kong"
+    ],
+    "correct": "Beijing",
+    "hint": "This city was the imperial capital of China.",
+    "explanation": "Beijing, as the capital of China, was a focal point for the Boxers and later the site of the siege of the foreign legations.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the primary function of the foreign legations in Beijing during this period?",
+    "answers": [
+      "To host cultural festivals",
+      "To serve as diplomatic and consular quarters",
+      "To train local soldiers",
+      "To operate as trading posts"
+    ],
+    "correct": "To serve as diplomatic and consular quarters",
+    "hint": "They were centers for diplomatic activity.",
+    "explanation": "Foreign legations in Beijing were compounds where diplomats and consular officials resided and conducted their official business, symbolizing the foreign presence in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which document ended the Boxer Rebellion and imposed severe penalties on China?",
+    "answers": [
+      "The Treaty of Nanking",
+      "The Boxer Protocol",
+      "The Treaty of Versailles",
+      "The Paris Peace Accords"
+    ],
+    "correct": "The Boxer Protocol",
+    "hint": "Its name is shared with the movement.",
+    "explanation": "The Boxer Protocol of 1901 ended the conflict and forced China to pay large indemnities and accept other harsh concessions from the victorious foreign powers.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How did the Boxer Rebellion affect the Qing Dynasty?",
+    "answers": [
+      "It strengthened the dynasty's rule",
+      "It led to significant internal strife and weakened the dynasty",
+      "It resulted in the expansion of the dynasty",
+      "It had no impact on the dynasty"
+    ],
+    "correct": "It led to significant internal strife and weakened the dynasty",
+    "hint": "The ruling dynasty faced increased internal challenges.",
+    "explanation": "The rebellion exposed the weaknesses of the Qing government, contributing to internal divisions and undermining its authority—factors that eventually led to its collapse.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which group was specifically targeted by the Boxers during the uprising?",
+    "answers": [
+      "Chinese peasants",
+      "European missionaries and Christians",
+      "Local government officials",
+      "Japanese traders"
+    ],
+    "correct": "European missionaries and Christians",
+    "hint": "They were seen as symbols of foreign influence.",
+    "explanation": "The Boxers targeted foreigners—especially Christian missionaries and Chinese converts—viewing them as agents of Western imperialism and cultural corruption.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How did foreign powers respond to the Boxer Rebellion?",
+    "answers": [
+      "They supported the Boxers",
+      "They formed an alliance to intervene and protect their nationals",
+      "They ignored the uprising",
+      "They provided arms to the Qing government"
+    ],
+    "correct": "They formed an alliance to intervene and protect their nationals",
+    "hint": "Multiple countries collaborated for intervention.",
+    "explanation": "In response to the violence against their citizens, the Eight-Nation Alliance was formed to intervene militarily and safeguard foreign interests in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which region of China was most affected by the Boxer Rebellion?",
+    "answers": [
+      "Southern China",
+      "Eastern China",
+      "Northern China",
+      "Western China"
+    ],
+    "correct": "Northern China",
+    "hint": "It centered around the capital and nearby provinces.",
+    "explanation": "Northern China, particularly the areas around Beijing and Shandong province, was the epicenter of the Boxer Rebellion and experienced the most intense conflict.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What role did anti-Christian sentiment play in the Boxer Rebellion?",
+    "answers": [
+      "It was a minor factor",
+      "It was one of the driving forces behind the uprising",
+      "It was completely absent",
+      "It was only promoted by foreign powers"
+    ],
+    "correct": "It was one of the driving forces behind the uprising",
+    "hint": "Religious tension was a key element.",
+    "explanation": "Anti-Christian sentiment was central to the Boxers’ ideology, as they viewed Christianity as a foreign threat that undermined traditional Chinese culture.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How did the Boxer Rebellion impact foreign trade in China?",
+    "answers": [
+      "It boosted trade relations",
+      "It led to disruptions and restrictions in trade",
+      "It resulted in a free trade agreement",
+      "It had no effect on trade"
+    ],
+    "correct": "It led to disruptions and restrictions in trade",
+    "hint": "Trade suffered due to the unrest.",
+    "explanation": "The chaos and violence during the rebellion disrupted trade, leading to economic losses and forcing many foreign businesses to curtail operations in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which concept best describes the anti-imperialist sentiment that fueled the Boxer Rebellion?",
+    "answers": [
+      "Globalization",
+      "Nationalism",
+      "Isolationism",
+      "Cosmopolitanism"
+    ],
+    "correct": "Nationalism",
+    "hint": "It was a reaction to foreign domination.",
+    "explanation": "Nationalistic feelings—stemming from a desire to preserve Chinese culture and resist foreign exploitation—played a crucial role in motivating the Boxers.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who were the primary foreign entities involved in suppressing the Boxer Rebellion?",
+    "answers": [
+      "A coalition of neighboring Asian countries",
+      "An alliance of European and American powers",
+      "A single powerful nation",
+      "Local Chinese warlords"
+    ],
+    "correct": "An alliance of European and American powers",
+    "hint": "The Eight-Nation Alliance was formed for this purpose.",
+    "explanation": "The suppression was carried out by the Eight-Nation Alliance, which brought together military forces from several Western nations and Japan to intervene in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was a major long-term outcome for China as a result of the Boxer Rebellion?",
+    "answers": [
+      "Improved relations with Western powers",
+      "Increased foreign control and influence",
+      "Isolation from the global community",
+      "A complete withdrawal of foreign interests"
+    ],
+    "correct": "Increased foreign control and influence",
+    "hint": "China faced harsher conditions after the conflict.",
+    "explanation": "After the rebellion, China was forced to accept the humiliating terms of the Boxer Protocol, which increased foreign influence and control over its economy and politics.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How did the Boxers view Western technology and modernization?",
+    "answers": [
+      "They embraced it wholeheartedly",
+      "They were suspicious and hostile towards it",
+      "They were indifferent",
+      "They sought to adopt all aspects of Western technology"
+    ],
+    "correct": "They were suspicious and hostile towards it",
+    "hint": "They saw it as a threat to traditional life.",
+    "explanation": "Many Boxers perceived Western technology and modernization as undermining traditional Chinese society, prompting a hostile reaction against foreign innovations.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which foreign power’s intervention during the Boxer Rebellion was noted for its rapid modernization and military efficiency?",
+    "answers": [
+      "Spain",
+      "Germany",
+      "Japan",
+      "Austria-Hungary"
+    ],
+    "correct": "Japan",
+    "hint": "This country had undergone significant reforms during the Meiji Restoration.",
+    "explanation": "Japan’s modernized military, transformed during the Meiji era, proved highly effective during its intervention in the Boxer Rebellion, reflecting its rapid modernization.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was one major consequence for foreign missionaries in China as a result of the Boxer Rebellion?",
+    "answers": [
+      "They gained increased influence",
+      "Many were expelled or killed",
+      "They were granted Chinese citizenship",
+      "They converted en masse to traditional Chinese religions"
+    ],
+    "correct": "Many were expelled or killed",
+    "hint": "Their work became dangerous amid the uprising.",
+    "explanation": "The anti-foreign and anti-Christian violence during the Boxer Rebellion led to the deaths and expulsion of many foreign missionaries, disrupting their activities in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the literal translation of the term 'Yihetuan', the name by which the Boxers referred to themselves?",
+    "answers": [
+      "Dragon Warriors",
+      "Righteous and Harmonious Fists",
+      "Imperial Defenders",
+      "Red Guardians"
+    ],
+    "correct": "Righteous and Harmonious Fists",
+    "hint": "Their self-designation emphasized morality and unity.",
+    "explanation": "The term 'Yihetuan' translates to 'Righteous and Harmonious Fists', reflecting the Boxers' self-image as defenders of Chinese tradition against foreign aggression.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Chinese province was particularly known as a hotbed of Boxer activity due to its proximity to foreign concessions?",
+    "answers": [
+      "Guangdong",
+      "Shandong",
+      "Sichuan",
+      "Yunnan"
+    ],
+    "correct": "Shandong",
+    "hint": "This eastern province was a center of missionary work.",
+    "explanation": "Shandong province, with its significant presence of foreign businesses and missionaries, became one of the key regions where anti-foreign sentiment and Boxer activities flourished.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the primary aim of the foreign powers' intervention during the Boxer Rebellion?",
+    "answers": [
+      "To colonize China",
+      "To protect their citizens and commercial interests",
+      "To impose democratic reforms",
+      "To eliminate the Qing Dynasty"
+    ],
+    "correct": "To protect their citizens and commercial interests",
+    "hint": "Their focus was on safeguarding their nationals and investments.",
+    "explanation": "The intervention by the Eight-Nation Alliance was driven by the need to secure the safety of their citizens and protect their economic and strategic interests in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How did the Boxers' use of apocalyptic rhetoric and millenarian beliefs influence their actions during the rebellion?",
+    "answers": [
+      "It led them to seek peace with foreigners",
+      "It spurred a fervent belief in divine intervention and ultimate victory",
+      "It caused them to adopt Western military strategies",
+      "It had no effect on their conduct"
+    ],
+    "correct": "It spurred a fervent belief in divine intervention and ultimate victory",
+    "hint": "Their rhetoric promised cosmic support against enemies.",
+    "explanation": "The Boxers often employed apocalyptic language, believing that supernatural forces would protect them and ultimately lead to the downfall of foreign powers—a belief that drove their bold and sometimes brutal actions.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the Qing government's ambiguous stance during the Boxer Rebellion contribute to the uprising's escalation?",
+    "answers": [
+      "They immediately crushed the rebellion",
+      "They fully supported the Boxers from the start",
+      "Their indecision and eventual support for the Boxers emboldened the uprising",
+      "They remained completely neutral"
+    ],
+    "correct": "Their indecision and eventual support for the Boxers emboldened the uprising",
+    "hint": "Mixed signals from the ruling dynasty played a role.",
+    "explanation": "The Qing government vacillated in its policies—initially tolerating, then partially supporting the Boxers—thus sending mixed messages that contributed to the escalation of the conflict.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What role did secret societies play in the organization and spread of the Boxer Rebellion?",
+    "answers": [
+      "They had no involvement",
+      "They served as the backbone for mobilizing local resistance",
+      "They worked to promote Western ideals",
+      "They only operated in southern China"
+    ],
+    "correct": "They served as the backbone for mobilizing local resistance",
+    "hint": "These covert groups had long roots in local traditions.",
+    "explanation": "Secret societies with deep historical roots in Chinese society helped organize and mobilize the Boxers, providing the structure and network necessary for the uprising to spread.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the ideological clash between traditional Chinese culture and Western imperialism manifest during the Boxer Rebellion?",
+    "answers": [
+      "It resulted in a peaceful cultural exchange",
+      "It created a conflict where Chinese traditions were defended against perceived Western corruption",
+      "It led to the immediate adoption of Western customs",
+      "It had no significant impact on the conflict"
+    ],
+    "correct": "It created a conflict where Chinese traditions were defended against perceived Western corruption",
+    "hint": "It was as much a cultural battle as a political one.",
+    "explanation": "The uprising was fueled by a desire to protect traditional Chinese values from the influences of Western imperialism, leading to a fierce cultural and political confrontation.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What internal divisions within China affected responses to the Boxer Rebellion?",
+    "answers": [
+      "Complete unanimity among all regions",
+      "Differing views between reformists and conservatives, as well as regional disparities",
+      "A unified support for the Boxers",
+      "Indifference from the populace"
+    ],
+    "correct": "Differing views between reformists and conservatives, as well as regional disparities",
+    "hint": "Not all Chinese agreed on how to handle foreign influence.",
+    "explanation": "The complex social and political landscape of China meant that while some factions supported the anti-foreign sentiment, others—especially reformists—sought to modernize and cooperate with Western powers, leading to a fragmented national response.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the military tactics of the Eight-Nation Alliance during the suppression of the Boxer Rebellion reflect broader imperial strategies of the time?",
+    "answers": [
+      "They relied solely on diplomatic negotiations",
+      "They used advanced artillery and coordinated multinational forces",
+      "They adopted guerrilla warfare techniques",
+      "They were uncoordinated and relied on local militias"
+    ],
+    "correct": "They used advanced artillery and coordinated multinational forces",
+    "hint": "Consider the role of modern weaponry and international coordination.",
+    "explanation": "The alliance’s use of modern artillery, disciplined infantry, and coordinated operations exemplified contemporary imperial military strategies aimed at swiftly suppressing local resistance.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the outcome of the Boxer Rebellion influence subsequent reform efforts in China, particularly regarding the Self-Strengthening Movement?",
+    "answers": [
+      "It had no impact on later reforms",
+      "It led to a complete rejection of Western technology",
+      "It spurred efforts to modernize the military and industry",
+      "It resulted in the immediate collapse of reform initiatives"
+    ],
+    "correct": "It spurred efforts to modernize the military and industry",
+    "hint": "The defeat highlighted the need for change.",
+    "explanation": "The harsh outcomes of the rebellion, including the humiliating Boxer Protocol, forced Chinese leaders to recognize the need for modernization—a key impetus behind later reform movements aimed at strengthening China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What were the primary terms imposed on China by the Boxer Protocol?",
+    "answers": [
+      "Lenient terms with few reparations",
+      "Harsh indemnities, territorial concessions, and demands for foreign troops",
+      "The protocol granted China increased sovereignty",
+      "It called for a cultural exchange program"
+    ],
+    "correct": "Harsh indemnities, territorial concessions, and demands for foreign troops",
+    "hint": "The terms were notably severe and one-sided.",
+    "explanation": "The Boxer Protocol imposed crippling financial penalties, territorial concessions, and allowed foreign troops to be stationed in China—reflecting the imperialistic arrogance of the victors.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In what ways did the Boxer Rebellion influence Western perceptions of China at the turn of the 20th century?",
+    "answers": [
+      "It led to admiration and cultural borrowing",
+      "It reinforced stereotypes of China as backward and superstitious",
+      "It resulted in widespread sympathy for Chinese modernization",
+      "It had no impact on Western views"
+    ],
+    "correct": "It reinforced stereotypes of China as backward and superstitious",
+    "hint": "Western media often depicted the uprising negatively.",
+    "explanation": "The violent and seemingly irrational nature of the rebellion was used by Western observers to paint China as uncivilized, which in turn justified further foreign intervention and control.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the Boxer Rebellion affect Sino-Japanese relations, considering Japan's role in the intervention?",
+    "answers": [
+      "It immediately led to a Japanese invasion of China",
+      "It strained relations due to differing objectives",
+      "It contributed to Japan's emergence as a modern military power and altered regional dynamics",
+      "It had no significant impact on relations"
+    ],
+    "correct": "It contributed to Japan's emergence as a modern military power and altered regional dynamics",
+    "hint": "Japan's role marked a turning point in regional power.",
+    "explanation": "Japan's active and effective involvement in the intervention boosted its military reputation and signaled its rise as a modern power, which would later reshape East Asian geopolitics.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What economic impacts did the Boxer Rebellion and its aftermath have on China?",
+    "answers": [
+      "Economic prosperity and rapid growth",
+      "Widespread devastation, increased foreign debt, and economic concessions",
+      "Isolation from global trade leading to self-sufficiency",
+      "A stable economic recovery"
+    ],
+    "correct": "Widespread devastation, increased foreign debt, and economic concessions",
+    "hint": "China was left financially crippled.",
+    "explanation": "The rebellion and the harsh terms of the Boxer Protocol imposed enormous financial burdens on China, leading to long-term economic challenges and increased dependence on foreign powers.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which strategic error by the Qing government exacerbated the Boxer Rebellion?",
+    "answers": [
+      "Swift suppression of the uprising",
+      "Clear and consistent policies that minimized conflict",
+      "Ambiguity in their stance, which led to confusion and emboldened the Boxers",
+      "Effective alliances with Western powers"
+    ],
+    "correct": "Ambiguity in their stance, which led to confusion and emboldened the Boxers",
+    "hint": "Mixed signals from leadership worsened the situation.",
+    "explanation": "The Qing government's unclear and inconsistent policies—initially tolerating the Boxers before later trying to suppress the movement—only served to further inflame tensions and contribute to the uprising's expansion.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the Boxer Rebellion contribute to the rise of revolutionary sentiments leading to the fall of the Qing Dynasty?",
+    "answers": [
+      "It consolidated support for the Qing government",
+      "It exposed the weaknesses of the Qing regime and fueled revolutionary ideas",
+      "It resulted in immediate democratic elections",
+      "It was completely isolated from later movements"
+    ],
+    "correct": "It exposed the weaknesses of the Qing regime and fueled revolutionary ideas",
+    "hint": "The conflict undermined the legitimacy of imperial rule.",
+    "explanation": "The internal chaos and the harsh aftermath of the Boxer Rebellion discredited the Qing government, contributing to growing revolutionary sentiments that eventually led to the dynasty's collapse.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which scholarly interpretation best explains the role of the Boxer Rebellion in global anti-imperialist movements?",
+    "answers": [
+      "It was an isolated event with no global parallels",
+      "It can be seen as part of a broader global resistance to imperialism and foreign domination",
+      "It was primarily a religious movement unrelated to politics",
+      "It was solely a reaction to internal corruption with no external influences"
+    ],
+    "correct": "It can be seen as part of a broader global resistance to imperialism and foreign domination",
+    "hint": "Similar anti-colonial sentiments were seen elsewhere at the time.",
+    "explanation": "Historians often view the Boxer Rebellion as emblematic of widespread resistance to imperialism, reflecting similar anti-colonial and nationalist movements occurring in other parts of the world during that era.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the multi-national composition of the Eight-Nation Alliance affect the execution and aftermath of the intervention?",
+    "answers": [
+      "It led to a highly unified and coordinated effort with no conflicts",
+      "It resulted in inter-allied tensions and varying objectives that complicated the intervention",
+      "It caused the alliance to quickly disband",
+      "It had no impact on the military operations"
+    ],
+    "correct": "It resulted in inter-allied tensions and varying objectives that complicated the intervention",
+    "hint": "Even allied forces often have conflicting agendas.",
+    "explanation": "Although the alliance succeeded in suppressing the rebellion, differing national interests among its members sometimes led to disagreements and complications during the post-conflict settlement.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In what ways did the Boxer Rebellion influence subsequent foreign policy decisions of Western powers in Asia?",
+    "answers": [
+      "It led to a withdrawal from Asian affairs",
+      "It encouraged further intervention and the establishment of spheres of influence in China",
+      "It resulted in a policy of complete non-intervention",
+      "It initiated immediate decolonization efforts"
+    ],
+    "correct": "It encouraged further intervention and the establishment of spheres of influence in China",
+    "hint": "Western powers sought to protect and expand their privileges.",
+    "explanation": "The events of the Boxer Rebellion reinforced Western determination to secure their interests in Asia, leading to more aggressive policies and the carving out of exclusive spheres of influence in China.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What long-term cultural impacts did the Boxer Rebellion have on Chinese society and nationalism?",
+    "answers": [
+      "It led to the complete eradication of traditional beliefs",
+      "It fostered a renewed sense of cultural identity and a re-evaluation of China’s place in the modern world",
+      "It resulted in the immediate adoption of Western culture",
+      "It had no lasting cultural impact"
+    ],
+    "correct": "It fostered a renewed sense of cultural identity and a re-evaluation of China’s place in the modern world",
+    "hint": "The aftermath led many Chinese to rethink their traditions and future.",
+    "explanation": "The crisis forced Chinese intellectuals and reformers to re-examine traditional practices and seek ways to modernize without losing their cultural heritage—a process that contributed to the rise of modern Chinese nationalism.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the experience of foreign military intervention during the Boxer Rebellion influence later international law regarding extraterritorial rights in China?",
+    "answers": [
+      "It led to the immediate abolition of extraterritoriality",
+      "It contributed to debates over the legitimacy and fairness of extraterritorial rights, influencing later legal reforms",
+      "It resulted in the complete acceptance of foreign legal systems in China",
+      "It had no influence on international law"
+    ],
+    "correct": "It contributed to debates over the legitimacy and fairness of extraterritorial rights, influencing later legal reforms",
+    "hint": "It raised questions about sovereignty and fairness.",
+    "explanation": "The application of extraterritoriality—where foreigners were subject to their own laws—was heavily criticized in the wake of the rebellion, sparking debates that eventually led to legal reforms addressing these unequal privileges.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did technological limitations of early 20th-century warfare affect military engagements during the Boxer Rebellion?",
+    "answers": [
+      "They allowed for rapid communication and coordination",
+      "They often resulted in delayed responses and hindered battlefield coordination",
+      "They had no noticeable effect on the outcomes",
+      "They favored the side with advanced computer systems"
+    ],
+    "correct": "They often resulted in delayed responses and hindered battlefield coordination",
+    "hint": "Communication and transport were far less advanced then.",
+    "explanation": "The era’s limited communications and transportation infrastructure frequently hampered military coordination, contributing to the protracted nature of certain engagements during the Boxer Rebellion.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did anti-foreign economic policies in China contribute to the escalation of the Boxer Rebellion?",
+    "answers": [
+      "They were unrelated to the conflict",
+      "They exacerbated local grievances by undermining traditional industries and imposing unfair trade practices",
+      "They led to economic prosperity",
+      "They were fully supported by the Qing government"
+    ],
+    "correct": "They exacerbated local grievances by undermining traditional industries and imposing unfair trade practices",
+    "hint": "Economic exploitation stoked local discontent.",
+    "explanation": "The implementation of policies that favored foreign economic interests often hurt local businesses and traditional industries, intensifying resentment among the populace and contributing to the outbreak of the rebellion.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the Boxers’ use of millenarian beliefs and apocalyptic rhetoric affect their actions during the uprising?",
+    "answers": [
+      "It led them to negotiate peace with foreigners",
+      "It spurred a fervent belief in divine intervention and ultimate victory",
+      "It caused them to adopt Western military strategies",
+      "It had no impact on their conduct"
+    ],
+    "correct": "It spurred a fervent belief in divine intervention and ultimate victory",
+    "hint": "Their rhetoric promised cosmic justice.",
+    "explanation": "The Boxers’ apocalyptic language and millenarian ideas convinced many that supernatural forces were on their side, which in turn emboldened their actions and contributed to the intensity of the conflict.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did differing responses by regional Chinese officials during the Boxer Rebellion reflect the complexities of Qing imperial rule?",
+    "answers": [
+      "All officials uniformly supported the Boxers",
+      "Officials' responses varied, with some actively supporting and others opposing the uprising",
+      "Officials were entirely absent from the conflict",
+      "They all defected to the foreign powers"
+    ],
+    "correct": "Officials' responses varied, with some actively supporting and others opposing the uprising",
+    "hint": "Regional loyalties and interests led to mixed reactions.",
+    "explanation": "The Qing administration was not monolithic—regional officials often had divergent views on how to handle foreign pressure, leading to inconsistent policies and contributing to the overall chaos of the period.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How did the experience of the Boxer Rebellion influence later military reforms within China?",
+    "answers": [
+      "It led to a complete reliance on volunteer forces",
+      "It highlighted the need for standardized training and a modern, professional army",
+      "It resulted in the outsourcing of military operations",
+      "It caused the military to focus exclusively on naval operations"
+    ],
+    "correct": "It highlighted the need for standardized training and a modern, professional army",
+    "hint": "The traditional military system proved inadequate against modern forces.",
+    "explanation": "The inadequacies exposed during the conflict spurred Chinese leaders to reconsider military organization, leading to reforms aimed at modernizing the armed forces to better handle contemporary warfare.",
+    "topic": "The Boxer Rebellion",
+    "difficulty": "hard"
+  }
+]

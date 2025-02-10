@@ -1,0 +1,562 @@
+[
+  {
+    "question": "What is Madonna's full name?",
+    "answers": [
+      "Madonna Louise Ciccone",
+      "Madonna Marie Ciccone",
+      "Madonna Louise Smith",
+      "Madonna Anna Ciccone"
+    ],
+    "correct": "Madonna Louise Ciccone",
+    "hint": "Her middle name is Louise.",
+    "explanation": "The pop icon known simply as Madonna was born Madonna Louise Ciccone.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In what decade did Madonna rise to fame?",
+    "answers": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "correct": "1980s",
+    "hint": "Think of the iconic music videos and fashion of that era.",
+    "explanation": "Madonna became a cultural icon in the 1980s with breakthrough hits like 'Like a Virgin' and 'Material Girl.'",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna song features the lyrics 'Like a Virgin, touched for the very first time'?",
+    "answers": [
+      "Material Girl",
+      "Like a Virgin",
+      "Vogue",
+      "Papa Don't Preach"
+    ],
+    "correct": "Like a Virgin",
+    "hint": "The song title is also a state of being.",
+    "explanation": "Released in 1984, 'Like a Virgin' became one of Madonna's signature hits and helped cement her status in pop music.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna music video popularized the 'cone bra' look?",
+    "answers": [
+      "Vogue",
+      "Like a Prayer",
+      "Express Yourself",
+      "Material Girl"
+    ],
+    "correct": "Material Girl",
+    "hint": "The look was inspired by a famous movie star’s style.",
+    "explanation": "The 'Material Girl' video, with its iconic cone bra look inspired by Marilyn Monroe, became one of the most memorable images of the 1980s.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the title of Madonna's debut album?",
+    "answers": [
+      "Madonna",
+      "True Blue",
+      "Ray of Light",
+      "Bedtime Stories"
+    ],
+    "correct": "Madonna",
+    "hint": "It shares her stage name.",
+    "explanation": "Madonna's self-titled debut album was released in 1983 and marked the beginning of her prolific music career.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna song is known for its innovative music video featuring a futuristic dance style?",
+    "answers": [
+      "Vogue",
+      "Holiday",
+      "Lucky Star",
+      "Borderline"
+    ],
+    "correct": "Vogue",
+    "hint": "Its title is also a fashion term.",
+    "explanation": "Released in 1990, 'Vogue' became famous for its stylish dance moves and futuristic visuals, influencing dance and fashion worldwide.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Madonna is often referred to by what nickname due to her influence in pop music?",
+    "answers": [
+      "Queen of Pop",
+      "Empress of Rock",
+      "Diva of Dance",
+      "Princess of Soul"
+    ],
+    "correct": "Queen of Pop",
+    "hint": "Her reign over the pop genre is widely acknowledged.",
+    "explanation": "Madonna is known as the 'Queen of Pop' because of her lasting impact on the music industry and her ability to reinvent herself over decades.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna album features the hit song 'Ray of Light'?",
+    "answers": [
+      "Bedtime Stories",
+      "Ray of Light",
+      "Music",
+      "Erotica"
+    ],
+    "correct": "Ray of Light",
+    "hint": "The album title is also one of her famous songs.",
+    "explanation": "The album 'Ray of Light,' released in 1998, showcased a new, electronic sound and earned critical acclaim for its innovation.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Madonna is known for pushing boundaries in what area besides music?",
+    "answers": [
+      "Sports",
+      "Fashion and visual art",
+      "Culinary arts",
+      "Architecture"
+    ],
+    "correct": "Fashion and visual art",
+    "hint": "Her style and groundbreaking videos have influenced many creative fields.",
+    "explanation": "Madonna's bold fashion choices and innovative music videos have left a lasting mark on visual culture and pop art.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna hit was released in 1989 and is known for its provocative music video?",
+    "answers": [
+      "Express Yourself",
+      "Like a Prayer",
+      "Papa Don't Preach",
+      "La Isla Bonita"
+    ],
+    "correct": "Like a Prayer",
+    "hint": "The song shares its title with a common phrase of devotion.",
+    "explanation": "The video for 'Like a Prayer' stirred controversy with its mix of religious imagery and passionate visuals, making it one of Madonna's most talked-about works.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which film did Madonna star that is often considered her breakout role in acting?",
+    "answers": [
+      "Evita",
+      "Desperately Seeking Susan",
+      "A League of Their Own",
+      "The Next Best Thing"
+    ],
+    "correct": "Desperately Seeking Susan",
+    "hint": "The title includes the name 'Susan.'",
+    "explanation": "Released in 1985, 'Desperately Seeking Susan' showcased Madonna's magnetic screen presence and helped her gain recognition as an actress.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna tour was known as one of the most elaborate and controversial of its time?",
+    "answers": [
+      "Confessions Tour",
+      "Blond Ambition Tour",
+      "Sticky & Sweet Tour",
+      "Drowned World Tour"
+    ],
+    "correct": "Blond Ambition Tour",
+    "hint": "Its name references her famous hair color.",
+    "explanation": "The 1990 Blond Ambition Tour was noted for its daring choreography, provocative imagery, and high production values that pushed the boundaries of live pop performances.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of Madonna's 2005 album that includes the hit single 'Hung Up'?",
+    "answers": [
+      "Confessions on a Dance Floor",
+      "Music",
+      "American Life",
+      "Rebel Heart"
+    ],
+    "correct": "Confessions on a Dance Floor",
+    "hint": "The title suggests revelations in a dance setting.",
+    "explanation": "'Confessions on a Dance Floor' was released in 2005 and marked a successful return to dance music for Madonna, highlighted by the hit 'Hung Up.'",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Madonna is known for collaborating with which famous producer on her album 'Ray of Light'?",
+    "answers": [
+      "William Orbit",
+      "Skrillex",
+      "Pharrell Williams",
+      "Timbaland"
+    ],
+    "correct": "William Orbit",
+    "hint": "His last name suggests something celestial.",
+    "explanation": "Producer William Orbit was instrumental in crafting the electronic and ethereal sound of 'Ray of Light,' helping Madonna redefine her musical style.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna song includes a sample of the guitar riff from 'Good Times' by Chic?",
+    "answers": [
+      "Holiday",
+      "Vogue",
+      "Like a Virgin",
+      "Lucky Star"
+    ],
+    "correct": "Lucky Star",
+    "hint": "The title implies good fortune and brightness.",
+    "explanation": "The song 'Lucky Star' features a sample from Chic's 'Good Times,' blending disco elements with Madonna's fresh pop sound in her early career.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which music video by Madonna was directed by David Fincher?",
+    "answers": [
+      "Express Yourself",
+      "Vogue",
+      "Bad Girl",
+      "Ray of Light"
+    ],
+    "correct": "Express Yourself",
+    "hint": "Its title is a call for self-empowerment.",
+    "explanation": "David Fincher directed the video for 'Express Yourself,' which is celebrated for its stylish visuals and empowering message.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Madonna's 1986 single 'Papa Don't Preach' dealt with which social theme?",
+    "answers": [
+      "Environmentalism",
+      "Teen pregnancy",
+      "Political corruption",
+      "Space exploration"
+    ],
+    "correct": "Teen pregnancy",
+    "hint": "It addresses a sensitive issue affecting young women.",
+    "explanation": "'Papa Don't Preach' sparked conversations about teen pregnancy and women's rights, reflecting Madonna's willingness to tackle controversial subjects.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna album marked a return to a more electronic and dance-oriented sound in the late 2000s?",
+    "answers": [
+      "American Life",
+      "Confessions on a Dance Floor",
+      "Ray of Light",
+      "Rebel Heart"
+    ],
+    "correct": "Confessions on a Dance Floor",
+    "hint": "Its title hints at revelations on the dance floor.",
+    "explanation": "The album 'Confessions on a Dance Floor' reasserted Madonna's prowess in dance music and was a major commercial success upon its release.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna tour was known for its innovative use of multimedia and elaborate stage design?",
+    "answers": [
+      "Sticky & Sweet Tour",
+      "Blond Ambition Tour",
+      "MDNA Tour",
+      "Rebel Heart Tour"
+    ],
+    "correct": "Sticky & Sweet Tour",
+    "hint": "Its name suggests a mix of tacky and appealing elements.",
+    "explanation": "The 'Sticky & Sweet Tour' (2008–2009) was celebrated for its cutting‐edge multimedia production, inventive stage sets, and visually stunning costumes.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Madonna has won multiple awards throughout her career. Which of the following is NOT an award she has received?",
+    "answers": [
+      "Grammy Award",
+      "Golden Globe Award",
+      "Academy Award",
+      "Billboard Music Award"
+    ],
+    "correct": "Academy Award",
+    "hint": "This award is primarily given in the film industry.",
+    "explanation": "While Madonna has earned Grammys, Golden Globes, and Billboard Music Awards, she has not won an Academy Award (Oscar) despite her work in film.",
+    "topic": "Madonnas",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Madonna album was noted for its introspective lyrics and marked a departure from her earlier, more provocative image?",
+    "answers": [
+      "Erotica",
+      "Bedtime Stories",
+      "American Life",
+      "Rebel Heart"
+    ],
+    "correct": "Bedtime Stories",
+    "hint": "The album title suggests a softer, reflective tone.",
+    "explanation": "Released in 1994, 'Bedtime Stories' showcased a more introspective and mellow side of Madonna, contrasting with her previously provocative style.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In what way did Madonna's 'Like a Prayer' video challenge societal norms and spark controversy upon its release?",
+    "answers": [
+      "It featured explicit violence",
+      "It contained religious imagery and symbolism",
+      "It promoted political propaganda",
+      "It used avant-garde animation techniques"
+    ],
+    "correct": "It contained religious imagery and symbolism",
+    "hint": "The video combined sacred symbols with pop culture.",
+    "explanation": "The 'Like a Prayer' video was controversial for its provocative use of religious imagery—including burning crosses and stigmata—which challenged traditional norms.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which renowned fashion designer collaborated with Madonna to create some of her most iconic stage costumes, including the famous cone bra?",
+    "answers": [
+      "Jean-Paul Gaultier",
+      "Donatella Versace",
+      "Calvin Klein",
+      "Giorgio Armani"
+    ],
+    "correct": "Jean-Paul Gaultier",
+    "hint": "He is known for his avant-garde and daring designs.",
+    "explanation": "French designer Jean-Paul Gaultier collaborated with Madonna—most famously on the cone bra look—helping to define her bold and provocative visual style.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What was the primary theme of Madonna's 2003 album 'American Life'?",
+    "answers": [
+      "Love and romance",
+      "Critique of American culture and politics",
+      "Dance and club culture",
+      "Religious salvation"
+    ],
+    "correct": "Critique of American culture and politics",
+    "hint": "The album title reflects a commentary on contemporary society.",
+    "explanation": "'American Life' is known for its critical take on American society, addressing themes of consumerism, war, and political disillusionment.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Madonna's controversial book 'Sex' was released in which year, challenging societal norms about sexuality?",
+    "answers": [
+      "1985",
+      "1992",
+      "1998",
+      "2003"
+    ],
+    "correct": "1992",
+    "hint": "It was published in the early 1990s.",
+    "explanation": "Released in 1992, 'Sex' pushed boundaries with its explicit content and provocative images, reflecting Madonna's ongoing exploration of sexual freedom.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Madonna song was inspired by her interest in Kabbalah and incorporates spiritual themes?",
+    "answers": [
+      "Frozen",
+      "Hung Up",
+      "4 Minutes",
+      "Sorry"
+    ],
+    "correct": "Frozen",
+    "hint": "Its title suggests a state of being cold or emotionally distant.",
+    "explanation": "The 1998 hit 'Frozen' reflects Madonna's exploration of spirituality—including her interest in Kabbalah—marking a departure from her earlier pop sound.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which major life event did Madonna explore in her critically acclaimed musical 'Evita'?",
+    "answers": [
+      "Her own biography",
+      "The life of Eva Perón",
+      "The history of Argentina",
+      "The evolution of pop music"
+    ],
+    "correct": "The life of Eva Perón",
+    "hint": "The subject is the famous Argentine first lady.",
+    "explanation": "In 'Evita,' Madonna portrayed Eva Perón, delving into the dramatic story of Argentina's beloved—and controversial—first lady.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which music video directed by Madonna herself showcased her ability to merge film narrative with pop music?",
+    "answers": [
+      "Material Girl",
+      "Vogue",
+      "Bedtime Stories",
+      "Take a Bow"
+    ],
+    "correct": "Take a Bow",
+    "hint": "Its title suggests a theatrical farewell.",
+    "explanation": "By directing 'Take a Bow,' Madonna demonstrated her multifaceted creativity, blending cinematic storytelling with her musical artistry.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Madonna's 2015 album 'Rebel Heart' received critical acclaim for its blend of various musical styles. Which of these genres was NOT prominently featured on the album?",
+    "answers": [
+      "Pop",
+      "R&B",
+      "Reggae",
+      "Heavy metal"
+    ],
+    "correct": "Heavy metal",
+    "hint": "The album is known for its pop and R&B influences, not this genre.",
+    "explanation": "'Rebel Heart' combined elements of pop, R&B, and electronic music while steering clear of heavy metal, highlighting its diverse yet focused sound.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In what way did Madonna use her public persona to influence discussions on gender and sexuality?",
+    "answers": [
+      "By avoiding controversy",
+      "By embracing and challenging gender norms and promoting sexual freedom",
+      "By focusing solely on musical talent",
+      "By strictly adhering to traditional roles"
+    ],
+    "correct": "By embracing and challenging gender norms and promoting sexual freedom",
+    "hint": "Her image has always been provocative and transformative.",
+    "explanation": "Madonna has consistently pushed boundaries by challenging conventional gender roles and openly discussing sexuality, influencing cultural conversations worldwide.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of Madonna's tours was accompanied by a documentary film that provided an in-depth look at her creative process?",
+    "answers": [
+      "Blond Ambition Tour",
+      "Confessions Tour",
+      "Sticky & Sweet Tour",
+      "MDNA Tour"
+    ],
+    "correct": "Blond Ambition Tour",
+    "hint": "This 1990 tour was famously documented in 'Truth or Dare.'",
+    "explanation": "The 'Blond Ambition Tour' was captured in the documentary 'Truth or Dare,' which gave fans a candid look at Madonna's life on tour and her artistic process.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Madonna's interest in spirituality and mysticism is often reflected in her music and visuals. Which of these practices has she notably explored?",
+    "answers": [
+      "Astrology",
+      "Kabbalah",
+      "Buddhism",
+      "Sufism"
+    ],
+    "correct": "Kabbalah",
+    "hint": "This practice is a form of Jewish mysticism.",
+    "explanation": "Madonna's engagement with Kabbalah has influenced her artistic vision and personal philosophy, often surfacing in the symbolism found in her work.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which iconic fashion accessory became synonymous with Madonna's image in the 1980s?",
+    "answers": [
+      "The leather jacket",
+      "The crucifix jewelry",
+      "Fingerless gloves",
+      "The oversized hat"
+    ],
+    "correct": "The crucifix jewelry",
+    "hint": "This accessory often featured religious symbolism.",
+    "explanation": "Madonna's frequent use of crucifix jewelry was a hallmark of her 1980s style, merging religious iconography with pop culture to create a distinctive visual identity.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Madonna's early performances in New York were instrumental in shaping her career. In which New York neighborhood did she first gain significant attention?",
+    "answers": [
+      "SoHo",
+      "Harlem",
+      "Brooklyn",
+      "Greenwich Village"
+    ],
+    "correct": "Greenwich Village",
+    "hint": "This area is known for its bohemian arts scene.",
+    "explanation": "Greenwich Village, with its vibrant artistic community, provided Madonna with the creative environment that helped launch her early career.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Madonna track was notably never released as a single in the United States despite its massive popularity in Europe?",
+    "answers": [
+      "Into the Groove",
+      "Vogue",
+      "La Isla Bonita",
+      "Holiday"
+    ],
+    "correct": "Into the Groove",
+    "hint": "Its title suggests getting into a dance rhythm.",
+    "explanation": "'Into the Groove' became a huge hit in Europe yet was never released as a single in the U.S., reflecting differing market strategies.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of Madonna's albums is often cited as a turning point in her career due to its electronic sound and introspective lyrics?",
+    "answers": [
+      "Ray of Light",
+      "Bedtime Stories",
+      "Music",
+      "Confessions on a Dance Floor"
+    ],
+    "correct": "Ray of Light",
+    "hint": "Its title suggests illumination and change.",
+    "explanation": "Released in 1998, 'Ray of Light' was hailed for its innovative production and marked a dramatic evolution in Madonna's musical style toward a more mature, electronic sound.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Madonna's performance at the 1984 MTV Video Music Awards is considered iconic. Which element of her performance helped cement her status as a pop superstar?",
+    "answers": [
+      "Her elaborate costume changes",
+      "Her energetic dance routines",
+      "Her live band performance",
+      "Her dramatic on-stage fall"
+    ],
+    "correct": "Her energetic dance routines",
+    "hint": "Her dynamic dancing captivated the audience.",
+    "explanation": "Her high-energy dance routines at the 1984 VMAs showcased Madonna's stage presence and helped establish her as a dynamic live performer.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which song by Madonna was accompanied by a controversial video that featured burning crosses and was criticized by religious groups?",
+    "answers": [
+      "Like a Prayer",
+      "Express Yourself",
+      "Papa Don't Preach",
+      "Live to Tell"
+    ],
+    "correct": "Like a Prayer",
+    "hint": "The title refers to an act of devotion.",
+    "explanation": "The 'Like a Prayer' video stirred widespread controversy for its provocative use of religious imagery, including burning crosses, challenging conventional norms.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the significance of Madonna's use of alter egos and reinvention in her career?",
+    "answers": [
+      "It allowed her to explore different musical genres",
+      "It helped her avoid media scrutiny",
+      "It made her appear inconsistent",
+      "It allowed her to stay relevant by constantly evolving her image"
+    ],
+    "correct": "It allowed her to stay relevant by constantly evolving her image",
+    "hint": "Change is a key factor in longevity.",
+    "explanation": "Madonna’s continual reinvention—through alter egos, shifts in musical style, and evolving fashion—has been crucial to her enduring success and cultural impact.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following controversies has NOT been associated with Madonna's career?",
+    "answers": [
+      "Her use of religious symbolism",
+      "Her explicit sexual imagery",
+      "Her political neutrality",
+      "Her provocative music videos"
+    ],
+    "correct": "Her political neutrality",
+    "hint": "She is known for speaking out on political issues.",
+    "explanation": "Madonna has stirred controversy with her use of religious imagery, sexual content, and bold videos; she is anything but politically neutral.",
+    "topic": "Madonnas",
+    "difficulty": "hard"
+  }
+]

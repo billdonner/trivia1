@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #game-container {
+      max-width: 600px;
+      margin: auto;
+      position: relative;
+    }
+    /* Header with title and status bar */
+    #header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #status-bar {
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    #status-bar span {
+      margin: 0 10px;
+    }
+    /* Loading indicator */
+    #loading {
+      text-align: center;
+      font-size: 20px;
+      padding: 20px;
+    }
+    /* Board styling */
+    #board {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      margin-bottom: 10px;
+    }
+    .cell {
+      border: 1px solid gray;
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f0f0;
+      cursor: pointer;
+    }
+    .cell.played-correct, .cell.special {
+      border: 3px solid green;
+      background-color: #c0ffc0;
+    }
+    .cell.played-incorrect {
+      background-color: black;
+    }
+    /* Button styling */
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 10px 5px;
+    }
+    /* Smaller buttons for hint and skip */
+    #hint-button, #skip-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+    /* Modal for challenge */
+    #challenge-modal, #hint-modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.5);
+    }
+    #challenge-modal-content, #hint-modal-content {
+      background-color: #fefefe;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 400px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    /* Scrollable text areas for long content */
+    .scrollable {
+      max-height: 150px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <!-- Header and board will be injected here -->
+  </div>
+  
+  <!-- Challenge Modal -->
+  <div id="challenge-modal">
+    <div id="challenge-modal-content">
+      <div id="modal-question" class="scrollable"></div>
+      <div id="modal-answers"></div>
+      <button id="switch-button">Switch Question</button>
+    </div>
+  </div>
+  
+  <!-- Hint Modal -->
+  <div id="hint-modal">
+    <div id="hint-modal-content">
+      <p id="hint-text"></p>
+      <button id="close-hint">Close</button>
+    </div>
+  </div>
+  
+  <script>
+    // Global game state variables.
+    let challenges = [];
+    let currentIndex = 0;
+    let score = 0;
+    let timeRemaining = 60;
+    let timerInterval = null;
+    let currentChallenge = null;
+    let answerGiven = false;
+
+    // Fetch JSON file names via listfiles.php.
+    async function fetchJSONFileNames() {
+      try {
+        const res = await fetch('listfiles.php', { cache: "no-cache" });
+        if (!res.ok) throw new Error("Error fetching file list");
+        return await res.json();
+      } catch (error) {
+        console.error("Error fetching JSON file names:", error);
+        return [];
+      }
+    }
+
+    // Load challenges from all JSON files.
+    async function loadChallenges() {
+      const fileNames = await fetchJSONFileNames();
+      const promises = fileNames.map(file =>
+        fetch(file, { cache: "no-cache" }).then(res => res.json())
+      );
+      const results = await Promise.all(promises);
+      challenges = results.flat();
+      // Randomize challenges.
+      challenges.sort(() => Math.random() - 0.5);
+      currentIndex = 0;
+      score = 0;
+      answerGiven = false;
+    }
+
+    // Start the game timer.
+    function startTimer() {
+      clearInterval(timerInterval);
+      timeRemaining = 60;
+      updateStatusBar();
+      timerInterval = setInterval(() => {
+        timeRemaining--;
+        updateStatusBar();
+        if (timeRemaining <= 0) {
+          clearInterval(timerInterval);
+          // Dismiss any open hint modal.
+          document.getElementById("hint-modal").style.display = "none";
+          endGame();
+        }
+      }, 1000);
+    }
+
+    // Update header status bar.
+    function updateStatusBar() {
+      const timerSpan = document.getElementById("timer");
+      const scoreSpan = document.getElementById("score");
+      if (timerSpan) {
+        timerSpan.textContent = `Time Remaining: ${timeRemaining} seconds`;
+        timerSpan.style.color = (timeRemaining <= 15 && timeRemaining > 0) ? "red" : "black";
+      }
+      if (scoreSpan) {
+        scoreSpan.textContent = `Score: ${score}`;
+      }
+    }
+
+    // Render the main game screen.
+    function renderGameScreen() {
+      const container = document.getElementById("game-container");
+      container.innerHTML = `
+        <div id="header">
+          <h1>Trivia Game</h1>
+          <div id="status-bar">
+            <span id="timer">Time Remaining: ${timeRemaining} seconds</span>
+            <span id="score">Score: ${score}</span>
+          </div>
+        </div>
+        <div id="board"></div>
+        <div style="text-align: center; margin-top: 10px;">
+          <button id="hint-button" style="font-size: 14px; padding: 8px 16px;">Show Hint</button>
+          <button id="skip-button" style="font-size: 14px; padding: 8px 16px;">Skip Question</button>
+        </div>
+        <div id="feedback-container" class="scrollable"></div>
+        <button id="next-button" style="display: none;">Next Question</button>
+      `;
+      document.getElementById("hint-button").onclick = showHint;
+      document.getElementById("skip-button").onclick = skipQuestion;
+      document.getElementById("next-button").onclick = nextQuestion;
+      renderBoard();
+    }
+
+    // Render the grid board.
+    function renderBoard() {
+      const boardDiv = document.getElementById("board");
+      boardDiv.innerHTML = "";
+      // For a 4x4 board:
+      const gridSize = 4;
+      // Assume challenges array is long enough.
+      let index = 0;
+      for (let i = 0; i < gridSize * gridSize; i++) {
+        const cellDiv = document.createElement("div");
+        cellDiv.className = "cell";
+        // For demo, show the topic abbreviation.
+        const challenge = challenges[index % challenges.length];
+        cellDiv.dataset.challengeIndex = index;
+        cellDiv.textContent = challenge.topic.slice(0, 2).toUpperCase();
+        cellDiv.onclick = () => {
+          // Allow cell selection only if not already answered.
+          if (!cellDiv.classList.contains("played-correct") && !cellDiv.classList.contains("played-incorrect")) {
+            currentChallenge = challenge;
+            answerGiven = false;
+            showChallengeModal();
+          }
+        };
+        boardDiv.appendChild(cellDiv);
+        index++;
+      }
+    }
+
+    // Show the challenge modal overlay.
+    function showChallengeModal() {
+      const modal = document.getElementById("challenge-modal");
+      const modalQuestion = document.getElementById("modal-question");
+      const modalAnswers = document.getElementById("modal-answers");
+      modalQuestion.textContent = currentChallenge.question;
+      modalAnswers.innerHTML = "";
+      currentChallenge.answers.forEach(answer => {
+        const btn = document.createElement("button");
+        btn.className = "answer-button";
+        btn.textContent = answer;
+        btn.onclick = () => processAnswer(answer);
+        modalAnswers.appendChild(btn);
+      });
+      document.getElementById("switch-button").disabled = answerGiven;
+      modal.style.display = "block";
+    }
+
+    // Process an answer from the challenge modal.
+    function processAnswer(selected) {
+      const modal = document.getElementById("challenge-modal");
+      if (selected === currentChallenge.correct) {
+        score += (currentChallenge.difficulty === "hard" ? 2 : 1);
+        alert("Correct! " + currentChallenge.explanation);
+      } else {
+        alert("Incorrect. The correct answer is " + currentChallenge.correct + ". " + currentChallenge.explanation);
+      }
+      answerGiven = true;
+      modal.style.display = "none";
+      document.getElementById("hint-button").disabled = true;
+      document.getElementById("skip-button").disabled = true;
+      updateStatusBar();
+      nextQuestion();
+    }
+
+    // Switch question functionality.
+    function switchQuestion() {
+      currentChallenge = challenges[Math.floor(Math.random() * challenges.length)];
+      showChallengeModal();
+    }
+
+    // Skip the current challenge.
+    function skipQuestion() {
+      document.getElementById("hint-button").disabled = true;
+      document.getElementById("skip-button").disabled = true;
+      nextQuestion();
+    }
+
+    // Advance to the next challenge.
+    function nextQuestion() {
+      currentIndex++;
+      if (currentIndex >= challenges.length) {
+        endGame();
+      } else {
+        renderBoard();
+      }
+    }
+
+    // End game screen.
+    function endGame() {
+      clearInterval(timerInterval);
+      document.getElementById("hint-modal").style.display = "none";
+      const container = document.getElementById("game-container");
+      container.innerHTML = `
+        <div id="header">
+          <h1>Trivia Game</h1>
+          <div id="status-bar">
+            <span id="timer">Time Remaining: ${timeRemaining} seconds</span>
+            <span id="score">Score: ${score}</span>
+          </div>
+        </div>
+        <h1 style="text-align:center;">Game Over!</h1>
+        <p style="text-align:center;">Your score: ${score}</p>
+        <div style="text-align:center;"><button id="restart-button">Restart Game</button></div>
+      `;
+      document.getElementById("restart-button").onclick = startGame;
+    }
+
+    // Show hint using a custom modal.
+    function showHint() {
+      const hintModal = document.getElementById("hint-modal");
+      document.getElementById("hint-text").textContent = currentChallenge.hint;
+      hintModal.style.display = "block";
+    }
+    
+    document.getElementById("close-hint").onclick = function() {
+      document.getElementById("hint-modal").style.display = "none";
+    };
+
+    // Start or restart game.
+    async function startGame() {
+      await loadChallenges();
+      currentIndex = 0;
+      score = 0;
+      renderGameScreen();
+      startTimer();
+    }
+
+    // Start game when the window loads.
+    window.onload = startGame;
+  </script>
+</body>
+</html>

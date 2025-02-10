@@ -1,0 +1,1002 @@
+[
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson was the first Secretary of State under President George Washington, laying the foundation for American diplomacy.",
+    "hint": "He was the first to hold the office.",
+    "answers": ["Thomas Jefferson", "Edmund Randolph", "Timothy Pickering", "John Marshall"],
+    "question": "Easy Question #1: Who served as Secretary of State under President George Washington?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Edmund Randolph",
+    "explanation": "Edmund Randolph served as Secretary of State under President George Washington following Thomas Jefferson.",
+    "hint": "He was the second to hold the office.",
+    "answers": ["Edmund Randolph", "Thomas Jefferson", "Timothy Pickering", "John Marshall"],
+    "question": "Easy Question #2: Who served as Secretary of State under President George Washington after Thomas Jefferson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Timothy Pickering",
+    "explanation": "Timothy Pickering served as Secretary of State under President George Washington and was known for his diplomatic efforts.",
+    "hint": "He was known for his work in diplomacy.",
+    "answers": ["Timothy Pickering", "John Marshall", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Easy Question #3: Who was the Secretary of State under President Washington known for his diplomatic efforts?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Marshall",
+    "explanation": "John Marshall served briefly as Secretary of State under President Washington and later became a towering figure in U.S. jurisprudence.",
+    "hint": "He later became Chief Justice of the Supreme Court.",
+    "answers": ["John Marshall", "Timothy Pickering", "Thomas Jefferson", "Edmund Randolph"],
+    "question": "Easy Question #4: Who served as Secretary of State under President Washington and later became Chief Justice?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Madison",
+    "explanation": "James Madison served as Secretary of State under President Thomas Jefferson before later becoming the fourth President of the United States.",
+    "hint": "He later became President.",
+    "answers": ["James Madison", "John Quincy Adams", "Thomas Jefferson", "Henry Clay"],
+    "question": "Easy Question #5: Which Secretary of State under President Jefferson later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Quincy Adams",
+    "explanation": "John Quincy Adams served as Secretary of State under President James Monroe and is renowned for the Monroe Doctrine. He later became President.",
+    "hint": "He is associated with the Monroe Doctrine.",
+    "answers": ["John Quincy Adams", "Henry Clay", "Daniel Webster", "William Seward"],
+    "question": "Easy Question #6: Who served as Secretary of State under President Monroe and later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Henry Clay",
+    "explanation": "Henry Clay, known as 'The Great Compromiser,' served as Secretary of State under President John Quincy Adams.",
+    "hint": "He was famous for his compromises in Congress.",
+    "answers": ["Henry Clay", "John Quincy Adams", "Daniel Webster", "Timothy Pickering"],
+    "question": "Easy Question #7: Which Secretary of State, known as 'The Great Compromiser,' served under John Quincy Adams?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Daniel Webster",
+    "explanation": "Daniel Webster served as Secretary of State under multiple presidents and was known for his powerful oratory and diplomatic skill.",
+    "hint": "He was a renowned orator.",
+    "answers": ["Daniel Webster", "Henry Clay", "John Quincy Adams", "Thomas Jefferson"],
+    "question": "Easy Question #8: Which Secretary of State was known for his remarkable oratory skills?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Lewis Cass",
+    "explanation": "Lewis Cass served as Secretary of State under President Andrew Jackson and was known for his advocacy of popular sovereignty.",
+    "hint": "He served under Andrew Jackson.",
+    "answers": ["Lewis Cass", "Daniel Webster", "Henry Clay", "John Quincy Adams"],
+    "question": "Easy Question #9: Who served as Secretary of State under President Andrew Jackson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "William H. Seward",
+    "explanation": "William H. Seward served as Secretary of State under President Abraham Lincoln and is best known for the purchase of Alaska, often called 'Seward's Folly.'",
+    "hint": "He is famous for buying Alaska.",
+    "answers": ["William H. Seward", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Easy Question #10: Which Secretary of State under Lincoln is famous for the Alaska purchase?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John M. Clayton",
+    "explanation": "John M. Clayton served as Secretary of State under President Zachary Taylor and was instrumental in negotiating treaties such as the Clayton-Bulwer Treaty.",
+    "hint": "He helped negotiate treaties with Britain.",
+    "answers": ["John M. Clayton", "Timothy Pickering", "Edmund Randolph", "John Marshall"],
+    "question": "Easy Question #11: Who was the Secretary of State under President Taylor known for treaty negotiations?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Dean Acheson",
+    "explanation": "Dean Acheson served as Secretary of State under President Harry S. Truman and was a key architect of post-war U.S. foreign policy, including the Marshall Plan.",
+    "hint": "He helped shape post-war diplomacy.",
+    "answers": ["Dean Acheson", "Cyrus Vance", "James Baker", "Warren Christopher"],
+    "question": "Easy Question #12: Which Secretary of State under Truman was a key architect of the Marshall Plan?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Cyrus Vance",
+    "explanation": "Cyrus Vance served as Secretary of State under President Jimmy Carter and was noted for his diplomatic efforts during a tumultuous period in international relations.",
+    "hint": "He served under Carter.",
+    "answers": ["Cyrus Vance", "Dean Acheson", "James Baker", "John Kerry"],
+    "question": "Easy Question #13: Who served as Secretary of State under President Carter?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Baker",
+    "explanation": "James Baker served as Secretary of State under President George H. W. Bush and was renowned for his skillful diplomacy during the end of the Cold War.",
+    "hint": "He served during the end of the Cold War.",
+    "answers": ["James Baker", "Warren Christopher", "John Kerry", "Dean Acheson"],
+    "question": "Easy Question #14: Which Secretary of State under President George H. W. Bush was noted for his Cold War diplomacy?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Warren Christopher",
+    "explanation": "Warren Christopher served as Secretary of State under President Bill Clinton and played a significant role in negotiating international agreements.",
+    "hint": "He served under Clinton.",
+    "answers": ["Warren Christopher", "James Baker", "Condoleezza Rice", "Hillary Clinton"],
+    "question": "Easy Question #15: Who served as Secretary of State under President Clinton and helped negotiate key agreements?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Madeleine Albright",
+    "explanation": "Madeleine Albright was the first female Secretary of State, serving under President Bill Clinton and pioneering new diplomatic initiatives.",
+    "hint": "The first woman to hold the position.",
+    "answers": ["Madeleine Albright", "Hillary Clinton", "Condoleezza Rice", "John Kerry"],
+    "question": "Easy Question #16: Who was the first female Secretary of State?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Condoleezza Rice",
+    "explanation": "Condoleezza Rice served as Secretary of State under President George W. Bush and was known for her assertive approach to foreign policy.",
+    "hint": "She served under Bush and was known for her strong foreign policy stance.",
+    "answers": ["Condoleezza Rice", "Hillary Clinton", "John Kerry", "Rex Tillerson"],
+    "question": "Easy Question #17: Which Secretary of State under George W. Bush was known for her assertive diplomacy?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Hillary Clinton",
+    "explanation": "Hillary Clinton served as Secretary of State under President Barack Obama and worked on several key diplomatic initiatives.",
+    "hint": "She later ran for President.",
+    "answers": ["Hillary Clinton", "Condoleezza Rice", "John Kerry", "Rex Tillerson"],
+    "question": "Easy Question #18: Who served as Secretary of State under President Obama and later ran for President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Kerry",
+    "explanation": "John Kerry served as Secretary of State under President Obama and was a prominent advocate for climate action and international diplomacy.",
+    "hint": "He later became a U.S. Senator and presidential candidate.",
+    "answers": ["John Kerry", "Hillary Clinton", "Condoleezza Rice", "Rex Tillerson"],
+    "question": "Easy Question #19: Who served as Secretary of State under President Obama and later ran for President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Rex Tillerson",
+    "explanation": "Rex Tillerson, a former ExxonMobil CEO, served as Secretary of State under President Donald Trump.",
+    "hint": "He was a business executive before his appointment.",
+    "answers": ["Rex Tillerson", "John Kerry", "Hillary Clinton", "Condoleezza Rice"],
+    "question": "Easy Question #20: Which former CEO served as Secretary of State under President Trump?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson was the first Secretary of State under President Washington and is credited with establishing the role for American diplomacy.",
+    "hint": "Hint: The inaugural holder of the office.",
+    "answers": ["Thomas Jefferson", "Edmund Randolph", "Timothy Pickering", "John Marshall"],
+    "question": "Easy Question #21: Who was the first U.S. Secretary of State?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Edmund Randolph",
+    "explanation": "Edmund Randolph served as Secretary of State under President Washington following Thomas Jefferson, continuing early diplomatic efforts.",
+    "hint": "Hint: He followed Jefferson in the role.",
+    "answers": ["Edmund Randolph", "Thomas Jefferson", "Timothy Pickering", "John Marshall"],
+    "question": "Easy Question #22: Who succeeded Thomas Jefferson as Secretary of State under Washington?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Timothy Pickering",
+    "explanation": "Timothy Pickering, known for his long tenure and diplomatic work, served as Secretary of State under President Washington.",
+    "hint": "Hint: Known for his diplomacy under Washington.",
+    "answers": ["Timothy Pickering", "John Marshall", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Easy Question #23: Which Secretary of State under Washington was known for his diplomatic work?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Marshall",
+    "explanation": "John Marshall served briefly as Secretary of State under Washington before becoming a legendary Chief Justice of the U.S. Supreme Court.",
+    "hint": "Hint: Later became Chief Justice.",
+    "answers": ["John Marshall", "Timothy Pickering", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Easy Question #24: Which Secretary of State under Washington later became Chief Justice?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Madison",
+    "explanation": "James Madison served as Secretary of State under President Jefferson and later became the fourth President of the United States.",
+    "hint": "Hint: He later became President.",
+    "answers": ["James Madison", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Easy Question #25: Which Secretary of State under Jefferson later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Quincy Adams",
+    "explanation": "John Quincy Adams, who served as Secretary of State under President Monroe, is well known for his role in formulating the Monroe Doctrine and later became President.",
+    "hint": "Hint: Associated with the Monroe Doctrine.",
+    "answers": ["John Quincy Adams", "Henry Clay", "Daniel Webster", "James Madison"],
+    "question": "Easy Question #26: Which Secretary of State under Monroe later became President and is associated with the Monroe Doctrine?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Henry Clay",
+    "explanation": "Henry Clay, renowned as 'The Great Compromiser,' served as Secretary of State and was influential in early American politics.",
+    "hint": "Hint: Known as 'The Great Compromiser.'",
+    "answers": ["Henry Clay", "John Quincy Adams", "Daniel Webster", "Timothy Pickering"],
+    "question": "Easy Question #27: Which Secretary of State was nicknamed 'The Great Compromiser'?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Daniel Webster",
+    "explanation": "Daniel Webster, famous for his eloquence, served as Secretary of State under multiple presidents and was a key figure in American diplomacy.",
+    "hint": "Hint: Renowned for his oratory skills.",
+    "answers": ["Daniel Webster", "Henry Clay", "John Quincy Adams", "Thomas Jefferson"],
+    "question": "Easy Question #28: Which Secretary of State was known for his powerful oratory?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Lewis Cass",
+    "explanation": "Lewis Cass served as Secretary of State under President Andrew Jackson and was known for advocating popular sovereignty.",
+    "hint": "Hint: He served under Jackson.",
+    "answers": ["Lewis Cass", "Daniel Webster", "Henry Clay", "John Quincy Adams"],
+    "question": "Easy Question #29: Who served as Secretary of State under Andrew Jackson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "William H. Seward",
+    "explanation": "William H. Seward served as Secretary of State under President Lincoln and is best known for negotiating the purchase of Alaska.",
+    "hint": "Hint: Known for the Alaska purchase.",
+    "answers": ["William H. Seward", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Easy Question #30: Which Secretary of State under Lincoln is famous for the purchase of Alaska?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John M. Clayton",
+    "explanation": "John M. Clayton served as Secretary of State under President Taylor and was known for negotiating key treaties.",
+    "hint": "Hint: Known for treaty negotiations.",
+    "answers": ["John M. Clayton", "Timothy Pickering", "Edmund Randolph", "John Marshall"],
+    "question": "Easy Question #31: Who served as Secretary of State under President Taylor known for treaty negotiations?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Dean Acheson",
+    "explanation": "Dean Acheson served as Secretary of State under President Truman and was pivotal in shaping post-World War II foreign policy.",
+    "hint": "Hint: He was key in the Marshall Plan.",
+    "answers": ["Dean Acheson", "Cyrus Vance", "James Baker", "Warren Christopher"],
+    "question": "Easy Question #32: Which Secretary of State under Truman was instrumental in shaping post-war foreign policy?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Cyrus Vance",
+    "explanation": "Cyrus Vance served as Secretary of State under President Carter and was known for his diplomatic approach during a challenging period in international relations.",
+    "hint": "Hint: He served under Carter.",
+    "answers": ["Cyrus Vance", "Dean Acheson", "James Baker", "John Kerry"],
+    "question": "Easy Question #33: Who served as Secretary of State under President Carter?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Baker",
+    "explanation": "James Baker served as Secretary of State under President George H. W. Bush and was widely respected for his diplomatic skills during the end of the Cold War.",
+    "hint": "Hint: He served under George H. W. Bush.",
+    "answers": ["James Baker", "Warren Christopher", "John Kerry", "Dean Acheson"],
+    "question": "Easy Question #34: Which Secretary of State under President George H. W. Bush was noted for his diplomacy during the Cold War?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Warren Christopher",
+    "explanation": "Warren Christopher served as Secretary of State under President Clinton and played a vital role in several key international negotiations.",
+    "hint": "Hint: He served under Clinton.",
+    "answers": ["Warren Christopher", "James Baker", "John Kerry", "Dean Acheson"],
+    "question": "Easy Question #35: Which Secretary of State under President Clinton helped negotiate important international agreements?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Madeleine Albright",
+    "explanation": "Madeleine Albright, the first female Secretary of State, served under President Clinton and broke new ground in U.S. diplomacy.",
+    "hint": "Hint: The first woman in the role.",
+    "answers": ["Madeleine Albright", "Hillary Clinton", "Condoleezza Rice", "John Kerry"],
+    "question": "Easy Question #36: Who was the first female U.S. Secretary of State?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Condoleezza Rice",
+    "explanation": "Condoleezza Rice served as Secretary of State under President George W. Bush and was known for her firm stance on international issues.",
+    "hint": "Hint: She served under George W. Bush.",
+    "answers": ["Condoleezza Rice", "Hillary Clinton", "John Kerry", "Rex Tillerson"],
+    "question": "Easy Question #37: Which Secretary of State under President George W. Bush was known for her strong foreign policy?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Hillary Clinton",
+    "explanation": "Hillary Clinton served as Secretary of State under President Obama and was involved in many key diplomatic initiatives.",
+    "hint": "Hint: She later ran for President.",
+    "answers": ["Hillary Clinton", "Condoleezza Rice", "John Kerry", "Rex Tillerson"],
+    "question": "Easy Question #38: Which Secretary of State under President Obama later ran for President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Kerry",
+    "explanation": "John Kerry served as Secretary of State under President Obama, focusing on global issues such as climate change and diplomacy.",
+    "hint": "Hint: He later became a prominent senator.",
+    "answers": ["John Kerry", "Hillary Clinton", "Condoleezza Rice", "Rex Tillerson"],
+    "question": "Easy Question #39: Who served as Secretary of State under President Obama and later ran for President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Rex Tillerson",
+    "explanation": "Rex Tillerson, a former CEO of ExxonMobil, served as Secretary of State under President Trump.",
+    "hint": "Hint: He was a business executive before his appointment.",
+    "answers": ["Rex Tillerson", "John Kerry", "Hillary Clinton", "Condoleezza Rice"],
+    "question": "Easy Question #40: Which business executive served as Secretary of State under President Trump?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Thomas Jefferson",
+    "explanation": "Reiterating his role, Thomas Jefferson was the inaugural Secretary of State and set early diplomatic precedents.",
+    "hint": "Hint: The first-ever Secretary of State.",
+    "answers": ["Thomas Jefferson", "Edmund Randolph", "Timothy Pickering", "John Marshall"],
+    "question": "Easy Question #41: Who established the role of U.S. Secretary of State under President Washington?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Edmund Randolph",
+    "explanation": "Edmund Randolph succeeded Thomas Jefferson as Secretary of State, continuing the early foundations of American diplomacy.",
+    "hint": "Hint: He succeeded Jefferson.",
+    "answers": ["Edmund Randolph", "Thomas Jefferson", "Timothy Pickering", "John Marshall"],
+    "question": "Easy Question #42: Who succeeded Thomas Jefferson as Secretary of State?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Timothy Pickering",
+    "explanation": "Timothy Pickering, renowned for his diplomatic skill, served as Secretary of State under President Washington.",
+    "hint": "Hint: Known for his diplomacy.",
+    "answers": ["Timothy Pickering", "John Marshall", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Easy Question #43: Which Secretary of State under Washington was known for his diplomatic efforts?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Marshall",
+    "explanation": "John Marshall's brief tenure as Secretary of State under Washington preceded his historic role as Chief Justice.",
+    "hint": "Hint: Later became Chief Justice.",
+    "answers": ["John Marshall", "Timothy Pickering", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Easy Question #44: Which Secretary of State under Washington later became a legendary Chief Justice?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Madison",
+    "explanation": "James Madison served as Secretary of State under President Jefferson and then became President himself.",
+    "hint": "Hint: He later became the fourth President.",
+    "answers": ["James Madison", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Easy Question #45: Which Secretary of State under Jefferson later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Quincy Adams",
+    "explanation": "John Quincy Adams, known for the Monroe Doctrine, served as Secretary of State under Monroe and later became President.",
+    "hint": "Hint: Associated with the Monroe Doctrine.",
+    "answers": ["John Quincy Adams", "Henry Clay", "Daniel Webster", "James Madison"],
+    "question": "Easy Question #46: Which Secretary of State under Monroe later became President?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Henry Clay",
+    "explanation": "Henry Clay, nicknamed 'The Great Compromiser,' served as Secretary of State and influenced early American policy.",
+    "hint": "Hint: Known as 'The Great Compromiser.'",
+    "answers": ["Henry Clay", "John Quincy Adams", "Daniel Webster", "Timothy Pickering"],
+    "question": "Easy Question #47: Which Secretary of State was known as 'The Great Compromiser'?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Daniel Webster",
+    "explanation": "Daniel Webster served as Secretary of State under multiple presidents and was famed for his oratorical skills and diplomatic acumen.",
+    "hint": "Hint: Famous for his powerful speeches.",
+    "answers": ["Daniel Webster", "Henry Clay", "John Quincy Adams", "Thomas Jefferson"],
+    "question": "Easy Question #48: Which Secretary of State was renowned for his oratory and diplomacy?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Lewis Cass",
+    "explanation": "Lewis Cass served as Secretary of State under President Andrew Jackson and was a proponent of popular sovereignty.",
+    "hint": "Hint: Served under Andrew Jackson.",
+    "answers": ["Lewis Cass", "Daniel Webster", "Henry Clay", "John Quincy Adams"],
+    "question": "Easy Question #49: Who served as Secretary of State under Andrew Jackson?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "William H. Seward",
+    "explanation": "William H. Seward, noted for the Alaska purchase, served as Secretary of State under President Lincoln.",
+    "hint": "Hint: Famous for the Alaska purchase.",
+    "answers": ["William H. Seward", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Easy Question #50: Which Secretary of State under Lincoln is famous for purchasing Alaska?",
+    "difficulty": "easy",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson, the inaugural Secretary of State, set early diplomatic precedents for the United States.",
+    "hint": "Hint: The first ever Secretary of State.",
+    "answers": ["Thomas Jefferson", "Edmund Randolph", "Timothy Pickering", "John Marshall"],
+    "question": "Hard Question #51: Which Secretary of State was the first to serve under President Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Edmund Randolph",
+    "explanation": "Edmund Randolph continued the early work of U.S. diplomacy by serving as Secretary of State immediately after Thomas Jefferson.",
+    "hint": "Hint: He succeeded the first Secretary of State.",
+    "answers": ["Edmund Randolph", "Thomas Jefferson", "Timothy Pickering", "John Marshall"],
+    "question": "Hard Question #52: Which Secretary of State succeeded Thomas Jefferson under President Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Timothy Pickering",
+    "explanation": "Timothy Pickering, known for his lengthy service and diplomatic skill, served under President Washington.",
+    "hint": "Hint: Renowned for his diplomatic service under Washington.",
+    "answers": ["Timothy Pickering", "John Marshall", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Hard Question #53: Which Secretary of State under Washington was noted for his long and skilled diplomatic service?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Marshall",
+    "explanation": "John Marshall served as Secretary of State under Washington before rising to prominence as Chief Justice of the Supreme Court.",
+    "hint": "Hint: Later became the Supreme Court's Chief Justice.",
+    "answers": ["John Marshall", "Timothy Pickering", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Hard Question #54: Which Secretary of State under Washington later became a legendary Chief Justice?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Madison",
+    "explanation": "James Madison, who served as Secretary of State under Jefferson, went on to become the fourth President of the United States.",
+    "hint": "Hint: He later became President.",
+    "answers": ["James Madison", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Hard Question #55: Which Secretary of State under Jefferson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Quincy Adams",
+    "explanation": "John Quincy Adams, noted for his role in the Monroe Doctrine, served as Secretary of State under Monroe before eventually becoming President.",
+    "hint": "Hint: Associated with the Monroe Doctrine.",
+    "answers": ["John Quincy Adams", "Henry Clay", "Daniel Webster", "James Madison"],
+    "question": "Hard Question #56: Which Secretary of State under President Monroe is best known for the Monroe Doctrine and later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Henry Clay",
+    "explanation": "Henry Clay, known as 'The Great Compromiser,' served as Secretary of State and influenced many early U.S. policies.",
+    "hint": "Hint: Known as 'The Great Compromiser.'",
+    "answers": ["Henry Clay", "John Quincy Adams", "Daniel Webster", "Timothy Pickering"],
+    "question": "Hard Question #57: Which Secretary of State was nicknamed 'The Great Compromiser'?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Daniel Webster",
+    "explanation": "Daniel Webster, famed for his oratory, served as Secretary of State under multiple administrations and was a key diplomat in early America.",
+    "hint": "Hint: Renowned for his powerful speeches.",
+    "answers": ["Daniel Webster", "Henry Clay", "John Quincy Adams", "Thomas Jefferson"],
+    "question": "Hard Question #58: Which Secretary of State was celebrated for his exceptional oratory and diplomatic skills?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Lewis Cass",
+    "explanation": "Lewis Cass served as Secretary of State under Andrew Jackson and was an advocate for popular sovereignty.",
+    "hint": "Hint: Served under Andrew Jackson.",
+    "answers": ["Lewis Cass", "Daniel Webster", "Henry Clay", "John Quincy Adams"],
+    "question": "Hard Question #59: Which Secretary of State under Andrew Jackson advocated for popular sovereignty?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "William H. Seward",
+    "explanation": "William H. Seward, remembered for the purchase of Alaska, served as Secretary of State under President Lincoln.",
+    "hint": "Hint: Famous for the Alaska purchase.",
+    "answers": ["William H. Seward", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Hard Question #60: Which Secretary of State under Lincoln is best known for the acquisition of Alaska?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John M. Clayton",
+    "explanation": "John M. Clayton served as Secretary of State under President Taylor and was key in negotiating important treaties.",
+    "hint": "Hint: Known for treaty negotiations.",
+    "answers": ["John M. Clayton", "Timothy Pickering", "Edmund Randolph", "John Marshall"],
+    "question": "Hard Question #61: Which Secretary of State under President Taylor was known for negotiating treaties?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Dean Acheson",
+    "explanation": "Dean Acheson served as Secretary of State under President Truman and was instrumental in shaping U.S. foreign policy during the early Cold War.",
+    "hint": "Hint: Key architect of post-war policy.",
+    "answers": ["Dean Acheson", "Cyrus Vance", "James Baker", "Warren Christopher"],
+    "question": "Hard Question #62: Which Secretary of State under Truman helped shape post-World War II foreign policy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Cyrus Vance",
+    "explanation": "Cyrus Vance served as Secretary of State under President Carter and was recognized for his steady diplomacy during turbulent times.",
+    "hint": "Hint: He served under Carter.",
+    "answers": ["Cyrus Vance", "Dean Acheson", "James Baker", "John Kerry"],
+    "question": "Hard Question #63: Which Secretary of State under Carter was known for his steady and effective diplomacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Baker",
+    "explanation": "James Baker, serving under President George H. W. Bush, was celebrated for his diplomatic achievements during the end of the Cold War.",
+    "hint": "Hint: He served under Bush.",
+    "answers": ["James Baker", "Warren Christopher", "John Kerry", "Dean Acheson"],
+    "question": "Hard Question #64: Which Secretary of State under George H. W. Bush was noted for his Cold War diplomacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Warren Christopher",
+    "explanation": "Warren Christopher served as Secretary of State under President Clinton and was influential in negotiating key international accords.",
+    "hint": "Hint: Served under Clinton.",
+    "answers": ["Warren Christopher", "James Baker", "John Kerry", "Dean Acheson"],
+    "question": "Hard Question #65: Which Secretary of State under Clinton was pivotal in international negotiations?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Madeleine Albright",
+    "explanation": "Madeleine Albright, the first female Secretary of State, served under President Clinton and broke new ground in American diplomacy.",
+    "hint": "Hint: The first female Secretary of State.",
+    "answers": ["Madeleine Albright", "Hillary Clinton", "Condoleezza Rice", "John Kerry"],
+    "question": "Hard Question #66: Which Secretary of State broke the glass ceiling as the first woman to hold the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Condoleezza Rice",
+    "explanation": "Condoleezza Rice served as Secretary of State under President George W. Bush, known for her assertive and influential foreign policy.",
+    "hint": "Hint: Served under George W. Bush.",
+    "answers": ["Condoleezza Rice", "Hillary Clinton", "John Kerry", "Rex Tillerson"],
+    "question": "Hard Question #67: Which Secretary of State under George W. Bush was known for her assertive foreign policy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Hillary Clinton",
+    "explanation": "Hillary Clinton served as Secretary of State under President Obama and later became a prominent political figure, including a presidential candidate.",
+    "hint": "Hint: Later ran for President.",
+    "answers": ["Hillary Clinton", "Condoleezza Rice", "John Kerry", "Rex Tillerson"],
+    "question": "Hard Question #68: Which Secretary of State under Obama later ran for President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Kerry",
+    "explanation": "John Kerry served as Secretary of State under President Obama and was a key advocate for climate change and global diplomacy.",
+    "hint": "Hint: He later became a U.S. Senator and presidential candidate.",
+    "answers": ["John Kerry", "Hillary Clinton", "Condoleezza Rice", "Rex Tillerson"],
+    "question": "Hard Question #69: Which Secretary of State under Obama was known for his work on climate diplomacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Rex Tillerson",
+    "explanation": "Rex Tillerson, a former CEO of ExxonMobil, served as Secretary of State under President Trump.",
+    "hint": "Hint: He came from a business background.",
+    "answers": ["Rex Tillerson", "John Kerry", "Hillary Clinton", "Condoleezza Rice"],
+    "question": "Hard Question #70: Which former business executive served as Secretary of State under Trump?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Thomas Jefferson",
+    "explanation": "Reiterating his role, Thomas Jefferson set the precedent as the first U.S. Secretary of State under President Washington.",
+    "hint": "Hint: The inaugural holder of the office.",
+    "answers": ["Thomas Jefferson", "Edmund Randolph", "Timothy Pickering", "John Marshall"],
+    "question": "Hard Question #71: Which Secretary of State was the very first to serve under President Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Edmund Randolph",
+    "explanation": "Edmund Randolph succeeded Thomas Jefferson as Secretary of State and continued the early diplomatic efforts of the United States.",
+    "hint": "Hint: He succeeded the first Secretary of State.",
+    "answers": ["Edmund Randolph", "Thomas Jefferson", "Timothy Pickering", "John Marshall"],
+    "question": "Hard Question #72: Who succeeded Thomas Jefferson as Secretary of State under Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Timothy Pickering",
+    "explanation": "Timothy Pickering was known for his long service as Secretary of State under Washington, noted for his effective diplomacy.",
+    "hint": "Hint: Known for his lengthy diplomatic service.",
+    "answers": ["Timothy Pickering", "John Marshall", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Hard Question #73: Which Secretary of State under Washington was celebrated for his long and effective service?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Marshall",
+    "explanation": "John Marshall, after serving as Secretary of State, went on to become one of the most influential Chief Justices of the U.S. Supreme Court.",
+    "hint": "Hint: Later became a legendary Chief Justice.",
+    "answers": ["John Marshall", "Timothy Pickering", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Hard Question #74: Which Secretary of State later became a legendary Chief Justice?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Madison",
+    "explanation": "James Madison served as Secretary of State under Jefferson before later becoming President, shaping early American government.",
+    "hint": "Hint: Later became the fourth President.",
+    "answers": ["James Madison", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Hard Question #75: Which Secretary of State under Jefferson later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Quincy Adams",
+    "explanation": "John Quincy Adams, famed for the Monroe Doctrine, served as Secretary of State under Monroe and then became President.",
+    "hint": "Hint: Known for the Monroe Doctrine.",
+    "answers": ["John Quincy Adams", "Henry Clay", "Daniel Webster", "James Madison"],
+    "question": "Hard Question #76: Which Secretary of State under Monroe is associated with the Monroe Doctrine and later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Henry Clay",
+    "explanation": "Henry Clay, nicknamed 'The Great Compromiser,' served as Secretary of State and influenced early U.S. policy with his negotiation skills.",
+    "hint": "Hint: Known as 'The Great Compromiser.'",
+    "answers": ["Henry Clay", "John Quincy Adams", "Daniel Webster", "Timothy Pickering"],
+    "question": "Hard Question #77: Which Secretary of State was known as 'The Great Compromiser'?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Daniel Webster",
+    "explanation": "Daniel Webster, noted for his eloquence and diplomatic prowess, served as Secretary of State under multiple presidents.",
+    "hint": "Hint: Renowned for his powerful speeches.",
+    "answers": ["Daniel Webster", "Henry Clay", "John Quincy Adams", "Thomas Jefferson"],
+    "question": "Hard Question #78: Which Secretary of State was celebrated for his eloquent oratory and diplomacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Lewis Cass",
+    "explanation": "Lewis Cass served as Secretary of State under Andrew Jackson and advocated for popular sovereignty in the early republic.",
+    "hint": "Hint: Served under Andrew Jackson.",
+    "answers": ["Lewis Cass", "Daniel Webster", "Henry Clay", "John Quincy Adams"],
+    "question": "Hard Question #79: Which Secretary of State under Andrew Jackson was a proponent of popular sovereignty?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "William H. Seward",
+    "explanation": "William H. Seward, best known for the Alaska purchase, served as Secretary of State under President Lincoln.",
+    "hint": "Hint: Known for 'Seward's Folly.'",
+    "answers": ["William H. Seward", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Hard Question #80: Which Secretary of State under Lincoln is famous for the purchase of Alaska?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John M. Clayton",
+    "explanation": "John M. Clayton, who served under President Taylor, was instrumental in negotiating treaties such as the Clayton-Bulwer Treaty.",
+    "hint": "Hint: Known for treaty negotiations.",
+    "answers": ["John M. Clayton", "Timothy Pickering", "Edmund Randolph", "John Marshall"],
+    "question": "Hard Question #81: Which Secretary of State under President Taylor was known for negotiating treaties?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Dean Acheson",
+    "explanation": "Dean Acheson served as Secretary of State under President Truman and was a key architect of early Cold War foreign policy.",
+    "hint": "Hint: Pivotal in shaping post-war foreign policy.",
+    "answers": ["Dean Acheson", "Cyrus Vance", "James Baker", "Warren Christopher"],
+    "question": "Hard Question #82: Which Secretary of State under Truman helped shape U.S. foreign policy during the Cold War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Cyrus Vance",
+    "explanation": "Cyrus Vance served as Secretary of State under President Carter and was noted for his measured and effective diplomacy.",
+    "hint": "Hint: Served under Carter.",
+    "answers": ["Cyrus Vance", "Dean Acheson", "James Baker", "John Kerry"],
+    "question": "Hard Question #83: Which Secretary of State under Carter was known for his measured diplomacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Baker",
+    "explanation": "James Baker served as Secretary of State under President George H. W. Bush and was widely respected for his diplomatic skill during the closing years of the Cold War.",
+    "hint": "Hint: Served under George H. W. Bush.",
+    "answers": ["James Baker", "Warren Christopher", "John Kerry", "Dean Acheson"],
+    "question": "Hard Question #84: Which Secretary of State under George H. W. Bush was known for his effective diplomacy during the Cold War?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Warren Christopher",
+    "explanation": "Warren Christopher, serving under President Clinton, played a crucial role in shaping key international agreements.",
+    "hint": "Hint: Served under Clinton.",
+    "answers": ["Warren Christopher", "James Baker", "John Kerry", "Dean Acheson"],
+    "question": "Hard Question #85: Which Secretary of State under Clinton was pivotal in international negotiations?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Madeleine Albright",
+    "explanation": "Madeleine Albright was the first female Secretary of State, serving under President Clinton and breaking new ground in U.S. diplomacy.",
+    "hint": "Hint: The first female to hold the office.",
+    "answers": ["Madeleine Albright", "Hillary Clinton", "Condoleezza Rice", "John Kerry"],
+    "question": "Hard Question #86: Which Secretary of State broke the glass ceiling as the first woman in the office?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Condoleezza Rice",
+    "explanation": "Condoleezza Rice, serving under President George W. Bush, was known for her assertive approach to foreign policy.",
+    "hint": "Hint: Served under George W. Bush.",
+    "answers": ["Condoleezza Rice", "Hillary Clinton", "John Kerry", "Rex Tillerson"],
+    "question": "Hard Question #87: Which Secretary of State under George W. Bush was noted for her assertive foreign policy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Hillary Clinton",
+    "explanation": "Hillary Clinton served as Secretary of State under President Obama and later became a prominent political figure.",
+    "hint": "Hint: She later ran for President.",
+    "answers": ["Hillary Clinton", "Condoleezza Rice", "John Kerry", "Rex Tillerson"],
+    "question": "Hard Question #88: Which Secretary of State under Obama later ran for President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Kerry",
+    "explanation": "John Kerry, known for his advocacy on climate change and diplomacy, served as Secretary of State under President Obama.",
+    "hint": "Hint: He later became a U.S. Senator and presidential candidate.",
+    "answers": ["John Kerry", "Hillary Clinton", "Condoleezza Rice", "Rex Tillerson"],
+    "question": "Hard Question #89: Which Secretary of State under Obama was noted for his work on climate diplomacy?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Rex Tillerson",
+    "explanation": "Rex Tillerson, a former ExxonMobil CEO, served as Secretary of State under President Trump.",
+    "hint": "Hint: He came from a corporate background.",
+    "answers": ["Rex Tillerson", "John Kerry", "Hillary Clinton", "Condoleezza Rice"],
+    "question": "Hard Question #90: Which former CEO served as Secretary of State under President Trump?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Thomas Jefferson",
+    "explanation": "Reiterating his pioneering role, Thomas Jefferson set the precedent as the first Secretary of State under President Washington.",
+    "hint": "Hint: The inaugural Secretary of State.",
+    "answers": ["Thomas Jefferson", "Edmund Randolph", "Timothy Pickering", "John Marshall"],
+    "question": "Hard Question #91: Which Secretary of State was the very first to serve under President Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Edmund Randolph",
+    "explanation": "Edmund Randolph succeeded Thomas Jefferson as Secretary of State under President Washington and continued early American diplomacy.",
+    "hint": "Hint: He succeeded the first officeholder.",
+    "answers": ["Edmund Randolph", "Thomas Jefferson", "Timothy Pickering", "John Marshall"],
+    "question": "Hard Question #92: Which Secretary of State succeeded Thomas Jefferson under Washington?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Timothy Pickering",
+    "explanation": "Timothy Pickering served as Secretary of State under Washington and was known for his effective diplomatic work.",
+    "hint": "Hint: Known for his diplomacy.",
+    "answers": ["Timothy Pickering", "John Marshall", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Hard Question #93: Which Secretary of State under Washington was celebrated for his diplomatic achievements?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Marshall",
+    "explanation": "John Marshall, after serving as Secretary of State under Washington, became one of the most influential Chief Justices in U.S. history.",
+    "hint": "Hint: Later became Chief Justice.",
+    "answers": ["John Marshall", "Timothy Pickering", "Edmund Randolph", "Thomas Jefferson"],
+    "question": "Hard Question #94: Which Secretary of State later became one of the most influential Chief Justices?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "James Madison",
+    "explanation": "James Madison, who served as Secretary of State under Jefferson, later became President, influencing early U.S. government.",
+    "hint": "Hint: He later became the fourth President.",
+    "answers": ["James Madison", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Hard Question #95: Which Secretary of State under Jefferson later became President of the United States?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "John Quincy Adams",
+    "explanation": "John Quincy Adams, noted for the Monroe Doctrine, served as Secretary of State under Monroe and later ascended to the presidency.",
+    "hint": "Hint: Associated with the Monroe Doctrine.",
+    "answers": ["John Quincy Adams", "Henry Clay", "Daniel Webster", "James Madison"],
+    "question": "Hard Question #96: Which Secretary of State under Monroe is famous for the Monroe Doctrine and later became President?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Henry Clay",
+    "explanation": "Henry Clay, renowned as 'The Great Compromiser,' served as Secretary of State and influenced U.S. policy with his negotiation skills.",
+    "hint": "Hint: Known as 'The Great Compromiser.'",
+    "answers": ["Henry Clay", "John Quincy Adams", "Daniel Webster", "Timothy Pickering"],
+    "question": "Hard Question #97: Which Secretary of State was known for his role as 'The Great Compromiser'?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Daniel Webster",
+    "explanation": "Daniel Webster, famous for his powerful oratory, served as Secretary of State and was a key diplomat in early American history.",
+    "hint": "Hint: Renowned for his speeches.",
+    "answers": ["Daniel Webster", "Henry Clay", "John Quincy Adams", "Thomas Jefferson"],
+    "question": "Hard Question #98: Which Secretary of State was celebrated for his eloquence and diplomatic prowess?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "Lewis Cass",
+    "explanation": "Lewis Cass served as Secretary of State under Andrew Jackson and was a prominent advocate for popular sovereignty.",
+    "hint": "Hint: He served under Andrew Jackson.",
+    "answers": ["Lewis Cass", "Daniel Webster", "Henry Clay", "John Quincy Adams"],
+    "question": "Hard Question #99: Which Secretary of State under Andrew Jackson was a noted advocate of popular sovereignty?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  },
+  {
+    "topic": "U.S. Secretaries of State",
+    "correct": "William H. Seward",
+    "explanation": "William H. Seward, best known for the Alaska purchase, served as Secretary of State under Lincoln and left a lasting impact on American foreign policy.",
+    "hint": "Hint: Famous for buying Alaska.",
+    "answers": ["William H. Seward", "John Quincy Adams", "Henry Clay", "Daniel Webster"],
+    "question": "Hard Question #100: Which Secretary of State under Lincoln is famous for the acquisition of Alaska?",
+    "difficulty": "hard",
+    "model": "{{MODEL}}"
+  }
+]
