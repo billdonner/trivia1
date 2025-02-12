@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Settings - Advanced Trivia Path Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin: 10px 0 5px;
+    }
+    select {
+      padding: 8px;
+      font-size: 16px;
+    }
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .link-group {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Game Settings</h1>
+    <form id="settings-form">
+      <!-- Board Size -->
+      <label for="grid-size">Board Size (Grid Dimension):</label>
+      <select id="grid-size" name="gridSize">
+        <option value="3">3 x 3</option>
+        <option value="4">4 x 4</option>
+        <option value="5">5 x 5</option>
+        <option value="6">6 x 6</option>
+        <option value="7">7 x 7</option>
+        <option value="8">8 x 8</option>
+      </select>
+      
+      <!-- Difficulty -->
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty" name="difficulty">
+        <option value="easy">Easy</option>
+        <option value="hard">Hard</option>
+      </select>
+      
+      <!-- Topics -->
+      <label for="topics">Number of Topics:</label>
+      <select id="topics" name="topics">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      
+      <!-- Color Scheme -->
+      <label for="color-scheme">Color Scheme:</label>
+      <select id="color-scheme" name="colorScheme">
+        <option value="default">Default</option>
+        <option value="scheme1">Scheme 1</option>
+        <option value="scheme2">Scheme 2</option>
+        <option value="scheme3">Scheme 3</option>
+      </select>
+      
+      <div class="button-group">
+        <button type="button" id="save-settings">Save Settings</button>
+        <button type="button" id="reset-settings">Reset to Defaults</button>
+      </div>
+    </form>
+    
+    <div class="link-group">
+      <a href="index.html">Back to Game</a>
+      <a href="topics.html">Topics Overview</a>
+    </div>
+  </div>
+  
+  <script>
+    // Default settings (as per your opening spec)
+    const defaultSettings = {
+      gridSize: 4,        // 4x4 grid by default
+      difficulty: "easy",
+      topics: 5,          // Default to 5 topics
+      colorScheme: "default"
+    };
+    
+    // Load settings from localStorage or use defaults
+    function loadSettings() {
+      const saved = localStorage.getItem("triviaSettings");
+      return saved ? JSON.parse(saved) : defaultSettings;
+    }
+    
+    // Save settings to localStorage
+    function saveSettings(settings) {
+      localStorage.setItem("triviaSettings", JSON.stringify(settings));
+    }
+    
+    // Populate form fields with stored settings
+    function populateForm() {
+      const settings = loadSettings();
+      document.getElementById("grid-size").value = settings.gridSize;
+      document.getElementById("difficulty").value = settings.difficulty;
+      document.getElementById("topics").value = settings.topics;
+      document.getElementById("color-scheme").value = settings.colorScheme;
+    }
+    
+    // Save settings when the Save button is clicked
+    document.getElementById("save-settings").addEventListener("click", () => {
+      const newSettings = {
+        gridSize: parseInt(document.getElementById("grid-size").value, 10),
+        difficulty: document.getElementById("difficulty").value,
+        topics: parseInt(document.getElementById("topics").value, 10),
+        colorScheme: document.getElementById("color-scheme").value
+      };
+      saveSettings(newSettings);
+      alert("Settings saved!");
+    });
+    
+    // Reset to default settings
+    document.getElementById("reset-settings").addEventListener("click", () => {
+      saveSettings(defaultSettings);
+      populateForm();
+      alert("Settings have been reset to defaults!");
+    });
+    
+    // Initialize form on page load
+    window.onload = populateForm;
+  </script>
+</body>
+</html>

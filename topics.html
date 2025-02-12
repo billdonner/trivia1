@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Topics Overview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #topic-container {
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    #loading {
+      text-align: center;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .back-button {
+      display: block;
+      margin: auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="topic-container">
+    <h1>Topics Overview</h1>
+    <div id="loading">Loading topics...</div>
+    <table id="topics-table" style="display: none;">
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th>Question Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be injected here -->
+      </tbody>
+    </table>
+    <button class="back-button" onclick="window.location.href='index.html'">Back to Game</button>
+  </div>
+
+  <script>
+    // Fetch the JSON file names from listfiles.php (same as in your main game)
+    async function fetchJSONFileNames() {
+      try {
+        const res = await fetch('listfiles.php', { cache: "no-cache" });
+        if (!res.ok) throw new Error("Error fetching file list");
+        return await res.json();
+      } catch (error) {
+        console.error("Error fetching JSON file names:", error);
+        return [];
+      }
+    }
+
+    // Load challenges from all JSON files.
+    async function loadChallenges() {
+      const fileNames = await fetchJSONFileNames();
+      const promises = fileNames.map(file =>
+        fetch(file, { cache: "no-cache" }).then(res => res.json())
+      );
+      const results = await Promise.all(promises);
+      // Flatten the array in case each file returns an array of challenges.
+      return results.flat();
+    }
+
+    // Count the number of challenges per topic.
+    function countTopics(challenges) {
+      const topicCounts = {};
+      challenges.forEach(challenge => {
+        if (challenge.topic) {
+          topicCounts[challenge.topic] = (topicCounts[challenge.topic] || 0) + 1;
+        }
+      });
+      return topicCounts;
+    }
+
+    // Render the topics and counts in the table.
+    async function displayTopics() {
+      const challenges = await loadChallenges();
+      const topicCounts = countTopics(challenges);
+      const tableBody = document.querySelector("#topics-table tbody");
+      
+      // Clear any previous data (if needed).
+      tableBody.innerHTML = "";
+
+      for (const [topic, count] of Object.entries(topicCounts)) {
+        const row = document.createElement("tr");
+        
+        const topicCell = document.createElement("td");
+        topicCell.textContent = topic;
+        row.appendChild(topicCell);
+        
+        const countCell = document.createElement("td");
+        countCell.textContent = count;
+        row.appendChild(countCell);
+        
+        tableBody.appendChild(row);
+      }
+      // Hide the loading message and show the table.
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("topics-table").style.display = "table";
+    }
+
+    // Load and display topics on page load.
+    displayTopics();
+  </script>
+</body>
+</html>

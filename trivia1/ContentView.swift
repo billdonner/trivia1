@@ -237,8 +237,8 @@ struct ContentView: View {
     
     var boardView: some View {
         GeometryReader { geo in
-            let cellSize = geo.size.width / CGFloat(viewModel.gridSize)
-            LazyVGrid(columns: Array(repeating: GridItem(.fixed(cellSize), spacing: 2), count: viewModel.gridSize), spacing: 2) {
+          let cellSize = (geo.size.width / CGFloat(viewModel.gridSize))*0.92
+            LazyVGrid(columns: Array(repeating: GridItem(.fixed(cellSize), spacing: 1), count: viewModel.gridSize), spacing: 1) {
                 ForEach(0..<viewModel.gridSize, id: \.self) { row in
                     ForEach(0..<viewModel.gridSize, id: \.self) { col in
                         let cell = viewModel.cells[row][col]

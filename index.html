@@ -2,73 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trivia Game</title>
+  <title>Advanced Trivia Path Game</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      background-color: #f0f0f0;
     }
     #game-container {
-      max-width: 600px;
+      max-width: 800px;
       margin: auto;
       position: relative;
     }
-    /* Header with title and status bar */
-    #header {
+    header {
       text-align: center;
       margin-bottom: 10px;
     }
-    #status-bar {
-      display: flex;
-      justify-content: center;
+    #status {
+      margin-top: 10px;
       font-size: 18px;
-      margin-top: 5px;
-    }
-    #status-bar span {
-      margin: 0 10px;
-    }
-    /* Loading indicator */
-    #loading {
       text-align: center;
-      font-size: 20px;
-      padding: 20px;
     }
-    /* Board styling */
-    #board {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2px;
-      margin-bottom: 10px;
+    #board-container {
+      text-align: center;
     }
-    .cell {
-      border: 1px solid gray;
-      aspect-ratio: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #f0f0f0;
-      cursor: pointer;
+    table {
+      border-collapse: collapse;
+      margin: auto;
     }
-    .cell.played-correct, .cell.special {
-      border: 3px solid green;
-      background-color: #c0ffc0;
-    }
-    .cell.played-incorrect {
-      background-color: black;
-    }
-    /* Button styling */
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      margin: 10px 5px;
-    }
-    /* Smaller buttons for hint and skip */
-    #hint-button, #skip-button {
+    td.cell {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #ccc;
+      vertical-align: middle;
+      text-align: center;
       font-size: 14px;
-      padding: 8px 16px;
+      cursor: pointer;
+      transition: background-color 0.3s, border 0.3s;
     }
-    /* Modal for challenge */
-    #challenge-modal, #hint-modal {
+    td.blacked-out {
+      background-color: black !important;
+      color: white;
+    }
+    td.played-correct {
+      border: 3px solid green;
+    }
+    td.played-incorrect {
+      background-color: black;
+      color: white;
+    }
+    /* Modal styling */
+    .modal {
       display: none;
       position: fixed;
       z-index: 1000;
@@ -79,7 +63,7 @@
       overflow: auto;
       background-color: rgba(0,0,0,0.5);
     }
-    #challenge-modal-content, #hint-modal-content {
+    .modal-content {
       background-color: #fefefe;
       margin: 10% auto;
       padding: 20px;
@@ -89,258 +73,660 @@
       text-align: center;
       border-radius: 8px;
     }
-    /* Scrollable text areas for long content */
-    .scrollable {
-      max-height: 150px;
-      overflow-y: auto;
-      border: 1px solid #ccc;
-      padding: 10px;
-      margin-bottom: 10px;
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    /* Flash animation */
+    .flash {
+      animation: flashAnimation 0.3s ease-in-out;
+    }
+    @keyframes flashAnimation {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    /* Fixed buttons for feedback and settings */
+    #feedback-button {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+    #settings-link {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      padding: 10px 20px;
+      font-size: 14px;
+      text-decoration: none;
+      background: #ddd;
+      color: black;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
   <div id="game-container">
-    <!-- Header and board will be injected here -->
+    <header>
+      <h1>Advanced Trivia Path Game</h1>
+    </header>
+    <div id="status">Time: 60 sec | Score: 0</div>
+    <div id="board-container"></div>
   </div>
-  
-  <!-- Challenge Modal -->
-  <div id="challenge-modal">
-    <div id="challenge-modal-content">
-      <div id="modal-question" class="scrollable"></div>
-      <div id="modal-answers"></div>
-      <button id="switch-button">Switch Question</button>
-    </div>
-  </div>
-  
-  <!-- Hint Modal -->
-  <div id="hint-modal">
-    <div id="hint-modal-content">
-      <p id="hint-text"></p>
-      <button id="close-hint">Close</button>
-    </div>
-  </div>
-  
-  <script>
-    // Global game state variables.
-    let challenges = [];
-    let currentIndex = 0;
-    let score = 0;
-    let timeRemaining = 60;
-    let timerInterval = null;
-    let currentChallenge = null;
-    let answerGiven = false;
 
-    // Fetch JSON file names via listfiles.php.
-    async function fetchJSONFileNames() {
-      try {
-        const res = await fetch('listfiles.php', { cache: "no-cache" });
-        if (!res.ok) throw new Error("Error fetching file list");
-        return await res.json();
-      } catch (error) {
-        console.error("Error fetching JSON file names:", error);
-        return [];
+  <!-- Question Modal -->
+  <div id="question-modal" class="modal">
+    <div class="modal-content" id="question-modal-content">
+      <div id="question-text" class="scrollable"></div>
+      <div id="answers-container"></div>
+      <button id="switch-button">Switch Question</button>
+      <div id="question-timer"></div>
+    </div>
+  </div>
+
+  <!-- Win Modal -->
+  <div id="win-modal" class="modal">
+    <div class="modal-content">
+      <h2 id="win-message"></h2>
+      <div id="win-stats"></div>
+      <button id="play-again-button">Play Again</button>
+      <a href="settings.html">Settings</a>
+    </div>
+  </div>
+
+  <!-- Lose Modal -->
+  <div id="lose-modal" class="modal">
+    <div class="modal-content">
+      <h2 id="lose-message"></h2>
+      <div id="lose-stats"></div>
+      <button id="play-again-button-lose">Play Again</button>
+      <a href="settings.html">Settings</a>
+    </div>
+  </div>
+
+  <!-- Feedback button (always visible) -->
+  <button id="feedback-button" onclick="alert('Feedback form placeholder');">Feedback</button>
+  <!-- Settings link -->
+  <a id="settings-link" href="settings.html">Settings</a>
+
+  <script>
+    /***********************
+     * Global Settings & State
+     ***********************/
+    const settings = {
+      gridSize: 4,                   // default grid size (4x4); can be 3 to 8 (set in settings page)
+      blackOutMin: 0.15,             // 15%
+      blackOutMax: 0.30,             // 30%
+      specialMin: 0.10,              // 10%
+      specialMax: 0.15,              // 15%
+      switchTimeout: 3000,           // x = 3 seconds (before switch icon flashes)
+      feedbackTimeout: 5000,         // y = 5 seconds (duration of answer feedback)
+      timerDuration: 60              // overall game timer in seconds
+    };
+
+    // Game state variables
+    let board = [];                   // 2D array representing the board
+    let timerInterval;
+    let timeRemaining = settings.timerDuration;
+    let score = 0;
+    let correctCount = 0, incorrectCount = 0;
+    let startCell = null;             // cell chosen to start the game (must be a corner)
+    let targetCell = null;            // the diagonal opposite of startCell (winning goal)
+    let lastPlayedCell = null;        // the last cell that was played
+    let gameStarted = false;          // flag to check if starting move has been made
+
+    /***********************
+     * Dummy Question Generator
+     ***********************/
+    function generateDummyQuestion() {
+      const sampleQuestions = [
+        {
+          question: "What is 2 + 2?",
+          answers: ["3", "4", "5", "6"],
+          correct: "4",
+          difficulty: "easy",
+          topic: "Math"
+        },
+        {
+          question: "What is the capital of France?",
+          answers: ["Paris", "London", "Berlin", "Rome"],
+          correct: "Paris",
+          difficulty: "easy",
+          topic: "Geography"
+        },
+        {
+          question: "Which planet is known as the Red Planet?",
+          answers: ["Earth", "Mars", "Jupiter", "Venus"],
+          correct: "Mars",
+          difficulty: "easy",
+          topic: "Science"
+        },
+        {
+          question: "Who wrote 'Hamlet'?",
+          answers: ["Shakespeare", "Tolstoy", "Hemingway", "Dostoevsky"],
+          correct: "Shakespeare",
+          difficulty: "hard",
+          topic: "Literature"
+        }
+      ];
+      return sampleQuestions[Math.floor(Math.random() * sampleQuestions.length)];
+    }
+
+    /***********************
+     * Board & Cell Creation
+     ***********************/
+    // Each cell is an object with its properties.
+    function createCell(row, col) {
+      const q = generateDummyQuestion();
+      return {
+        row: row,
+        col: col,
+        blackedOut: false,
+        special: false,
+        question: q.question,
+        answers: q.answers,
+        correct: q.correct,
+        difficulty: q.difficulty,
+        topic: q.topic,
+        played: false,
+        correctAnswered: null  // will be true/false when answered
+      };
+    }
+
+    // Generate the board in advance (with random blacked-out and special cells)
+    function generateBoard() {
+      const N = settings.gridSize;
+      board = [];
+      for (let i = 0; i < N; i++) {
+        const row = [];
+        for (let j = 0; j < N; j++) {
+          row.push(createCell(i, j));
+        }
+        board.push(row);
+      }
+      // Determine total cells (excluding corners when blacking out)
+      const totalCells = N * N;
+      const minBlacks = Math.floor(totalCells * settings.blackOutMin);
+      const maxBlacks = Math.floor(totalCells * settings.blackOutMax);
+      const numBlacks = Math.floor(Math.random() * (maxBlacks - minBlacks + 1)) + minBlacks;
+
+      // Get list of positions (excluding the four corners)
+      const positions = [];
+      for (let i = 0; i < N; i++) {
+        for (let j = 0; j < N; j++) {
+          if ((i === 0 && j === 0) ||
+              (i === 0 && j === N - 1) ||
+              (i === N - 1 && j === 0) ||
+              (i === N - 1 && j === N - 1)) {
+            continue;
+          }
+          positions.push({ row: i, col: j });
+        }
+      }
+      // Shuffle and mark cells as blacked out
+      positions.sort(() => Math.random() - 0.5);
+      for (let k = 0; k < numBlacks && k < positions.length; k++) {
+        const pos = positions[k];
+        board[pos.row][pos.col].blackedOut = true;
+      }
+
+      // Mark special cells randomly among non-blacked-out cells.
+      const minSpecials = Math.floor(totalCells * settings.specialMin);
+      const maxSpecials = Math.floor(totalCells * settings.specialMax);
+      const numSpecials = Math.floor(Math.random() * (maxSpecials - minSpecials + 1)) + minSpecials;
+
+      const availablePositions = [];
+      for (let i = 0; i < N; i++) {
+        for (let j = 0; j < N; j++) {
+          if (!board[i][j].blackedOut) {
+            availablePositions.push({ row: i, col: j });
+          }
+        }
+      }
+      availablePositions.sort(() => Math.random() - 0.5);
+      for (let k = 0; k < numSpecials && k < availablePositions.length; k++) {
+        const pos = availablePositions[k];
+        board[pos.row][pos.col].special = true;
+      }
+
+      // Ensure connectivity among the two diagonal pairs (so every grid can be solved)
+      // We require that (top-left ⇔ bottom-right) AND (top-right ⇔ bottom-left) are connected.
+      while (!checkConnectivity()) {
+        // If not, reset blacked-out and special assignments and try again.
+        for (let i = 0; i < N; i++) {
+          for (let j = 0; j < N; j++) {
+            board[i][j].blackedOut = false;
+            board[i][j].special = false;
+          }
+        }
+        positions.sort(() => Math.random() - 0.5);
+        for (let k = 0; k < numBlacks && k < positions.length; k++) {
+          const pos = positions[k];
+          board[pos.row][pos.col].blackedOut = true;
+        }
+        availablePositions.length = 0;
+        for (let i = 0; i < N; i++) {
+          for (let j = 0; j < N; j++) {
+            if (!board[i][j].blackedOut) {
+              availablePositions.push({ row: i, col: j });
+            }
+          }
+        }
+        availablePositions.sort(() => Math.random() - 0.5);
+        for (let k = 0; k < numSpecials && k < availablePositions.length; k++) {
+          const pos = availablePositions[k];
+          board[pos.row][pos.col].special = true;
+        }
       }
     }
 
-    // Load challenges from all JSON files.
-    async function loadChallenges() {
-      const fileNames = await fetchJSONFileNames();
-      const promises = fileNames.map(file =>
-        fetch(file, { cache: "no-cache" }).then(res => res.json())
-      );
-      const results = await Promise.all(promises);
-      challenges = results.flat();
-      // Randomize challenges.
-      challenges.sort(() => Math.random() - 0.5);
-      currentIndex = 0;
-      score = 0;
-      answerGiven = false;
+    // Check connectivity for both diagonal pairs using BFS.
+    // We treat only non-blacked-out cells as available.
+    function checkConnectivity() {
+      const N = settings.gridSize;
+      function bfs(startRow, startCol, targetRow, targetCol) {
+        const visited = Array.from({ length: N }, () => Array(N).fill(false));
+        const queue = [];
+        queue.push({ row: startRow, col: startCol });
+        visited[startRow][startCol] = true;
+        const directions = [
+          { dr: -1, dc: 0 }, { dr: 1, dc: 0 },
+          { dr: 0, dc: -1 }, { dr: 0, dc: 1 },
+          { dr: -1, dc: -1 }, { dr: -1, dc: 1 },
+          { dr: 1, dc: -1 }, { dr: 1, dc: 1 }
+        ];
+        while (queue.length) {
+          const cell = queue.shift();
+          if (cell.row === targetRow && cell.col === targetCol) return true;
+          for (let d of directions) {
+            const nr = cell.row + d.dr;
+            const nc = cell.col + d.dc;
+            if (nr >= 0 && nr < N && nc >= 0 && nc < N && !visited[nr][nc]) {
+              if (!board[nr][nc].blackedOut) {
+                visited[nr][nc] = true;
+                queue.push({ row: nr, col: nc });
+              }
+            }
+          }
+        }
+        return false;
+      }
+      // Check top-left to bottom-right
+      if (!bfs(0, 0, N - 1, N - 1)) return false;
+      // Check top-right to bottom-left
+      if (!bfs(0, N - 1, N - 1, 0)) return false;
+      return true;
     }
 
-    // Start the game timer.
-    function startTimer() {
+    /***********************
+     * Rendering the Board
+     ***********************/
+    function renderBoard() {
+      const boardContainer = document.getElementById("board-container");
+      boardContainer.innerHTML = "";
+      const N = settings.gridSize;
+      const table = document.createElement("table");
+      table.id = "game-board";
+      for (let i = 0; i < N; i++) {
+        const tr = document.createElement("tr");
+        for (let j = 0; j < N; j++) {
+          const td = document.createElement("td");
+          td.id = `cell-${i}-${j}`;
+          td.classList.add("cell");
+          td.style.backgroundColor = getColorForTopic(board[i][j].topic);
+          if (board[i][j].blackedOut) {
+            td.classList.add("blacked-out");
+            td.textContent = "";
+          } else {
+            // For demo, show the first two letters of the topic.
+            td.textContent = board[i][j].topic.slice(0, 2).toUpperCase();
+          }
+          td.addEventListener("click", () => handleCellClick(i, j));
+          tr.appendChild(td);
+        }
+        table.appendChild(tr);
+      }
+      boardContainer.appendChild(table);
+    }
+
+    // Generate a color from a default set based on topic.
+    function getColorForTopic(topic) {
+      const colors = ["#AEDFF7", "#FFC0CB", "#98FB98", "#FFFACD", "#DDA0DD"];
+      let hash = 0;
+      for (let i = 0; i < topic.length; i++) {
+        hash = topic.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      return colors[Math.abs(hash) % colors.length];
+    }
+
+    /***********************
+     * Handling Cell Clicks & Moves
+     ***********************/
+    function handleCellClick(row, col) {
+      const cell = board[row][col];
+      // For the first move, enforce that only a corner is selectable.
+      if (!gameStarted) {
+        if (!isCorner(row, col)) {
+          alert("Please select a corner cell to start the game.");
+          return;
+        }
+        startCell = { row, col };
+        targetCell = getDiagonalOpposite(row, col);
+        gameStarted = true;
+        lastPlayedCell = { row, col };
+        showQuestionModal(row, col);
+      } else {
+        // Subsequent moves: only allow adjacent cells (touching sides or corners).
+        if (!isAdjacent(lastPlayedCell.row, lastPlayedCell.col, row, col)) {
+          alert("Please select a cell adjacent to the last played cell.");
+          return;
+        }
+        // If the cell has already been played, simply ignore (or you could show its info).
+        if (board[row][col].played) return;
+        lastPlayedCell = { row, col };
+        showQuestionModal(row, col);
+      }
+    }
+
+    function isCorner(row, col) {
+      const N = settings.gridSize;
+      return (row === 0 && col === 0) ||
+             (row === 0 && col === N - 1) ||
+             (row === N - 1 && col === 0) ||
+             (row === N - 1 && col === N - 1);
+    }
+
+    function getDiagonalOpposite(row, col) {
+      const N = settings.gridSize;
+      if (row === 0 && col === 0) return { row: N - 1, col: N - 1 };
+      if (row === 0 && col === N - 1) return { row: N - 1, col: 0 };
+      if (row === N - 1 && col === 0) return { row: 0, col: N - 1 };
+      if (row === N - 1 && col === N - 1) return { row: 0, col: 0 };
+    }
+
+    function isAdjacent(r1, c1, r2, c2) {
+      return Math.abs(r1 - r2) <= 1 && Math.abs(c1 - c2) <= 1;
+    }
+
+    /***********************
+     * Question Modal & Answer Processing
+     ***********************/
+    function showQuestionModal(row, col) {
+      const cell = board[row][col];
+      // Do nothing if cell is already blacked out.
+      if (cell.blackedOut) return;
+
+      // Set up modal content.
+      document.getElementById("question-text").textContent = cell.question;
+      const answersContainer = document.getElementById("answers-container");
+      answersContainer.innerHTML = "";
+      cell.answers.forEach(answer => {
+        const btn = document.createElement("button");
+        btn.textContent = answer;
+        btn.addEventListener("click", () => processAnswer(row, col, answer));
+        answersContainer.appendChild(btn);
+      });
+
+      // Show the modal.
+      document.getElementById("question-modal").style.display = "block";
+
+      // After 3 seconds (x seconds), flash the switch button.
+      setTimeout(() => {
+        document.getElementById("switch-button").classList.add("flash");
+      }, settings.switchTimeout);
+    }
+
+    // Process the answer selection.
+    function processAnswer(row, col, selected) {
+      const cell = board[row][col];
+      // Remove any flashing on the switch button.
+      document.getElementById("switch-button").classList.remove("flash");
+
+      if (selected === cell.correct) {
+        // Correct answer.
+        cell.played = true;
+        cell.correctAnswered = true;
+        score += (cell.difficulty === "hard" ? 2 : 1);
+        correctCount++;
+        document.getElementById(`cell-${row}-${col}`).classList.add("played-correct");
+
+        // Special cell: if answered correctly, randomly reactivate a blacked-out cell.
+        if (cell.special) {
+          reactivateRandomCell();
+        }
+        // Check if the played cells form a winning path.
+        if (checkWinPath()) {
+          winGame();
+          return;
+        }
+      } else {
+        // Incorrect answer.
+        cell.played = true;
+        cell.correctAnswered = false;
+        incorrectCount++;
+        // Black out this cell.
+        cell.blackedOut = true;
+        document.getElementById(`cell-${row}-${col}`).classList.add("played-incorrect");
+
+        // Special cell: if answered incorrectly, black out another random normal cell.
+        if (cell.special) {
+          blackOutRandomCell();
+        }
+      }
+      updateStatus();
+      // Leave the modal visible for 5 seconds (y seconds) then close.
+      setTimeout(closeQuestionModal, settings.feedbackTimeout);
+    }
+
+    function closeQuestionModal() {
+      document.getElementById("question-modal").style.display = "none";
+    }
+
+    // Reactivate a random blacked-out (but not yet played) cell.
+    function reactivateRandomCell() {
+      const candidates = [];
+      const N = settings.gridSize;
+      for (let i = 0; i < N; i++) {
+        for (let j = 0; j < N; j++) {
+          const cell = board[i][j];
+          if (cell.blackedOut && !cell.played) {
+            candidates.push({ row: i, col: j });
+          }
+        }
+      }
+      if (candidates.length > 0) {
+        const rand = candidates[Math.floor(Math.random() * candidates.length)];
+        board[rand.row][rand.col].blackedOut = false;
+        const td = document.getElementById(`cell-${rand.row}-${rand.col}`);
+        td.classList.remove("blacked-out");
+        flashCell(td, 3);
+      }
+    }
+
+    // Black out a random normal (unplayed) cell.
+    function blackOutRandomCell() {
+      const candidates = [];
+      const N = settings.gridSize;
+      for (let i = 0; i < N; i++) {
+        for (let j = 0; j < N; j++) {
+          const cell = board[i][j];
+          if (!cell.blackedOut && !cell.played) {
+            candidates.push({ row: i, col: j });
+          }
+        }
+      }
+      if (candidates.length > 0) {
+        const rand = candidates[Math.floor(Math.random() * candidates.length)];
+        board[rand.row][rand.col].blackedOut = true;
+        const td = document.getElementById(`cell-${rand.row}-${rand.col}`);
+        td.classList.add("blacked-out");
+        flashCell(td, 3);
+      }
+    }
+
+    // Flash a cell (by toggling a CSS class) a specified number of times.
+    function flashCell(element, times) {
+      let count = 0;
+      const interval = setInterval(() => {
+        element.classList.toggle("flash");
+        count++;
+        if (count >= times * 2) {
+          clearInterval(interval);
+          element.classList.remove("flash");
+        }
+      }, 300);
+    }
+
+    // Check if there is a winning path from the startCell to targetCell
+    // using only cells that have been played and answered correctly.
+    function checkWinPath() {
+      if (!startCell || !targetCell) return false;
+      const N = settings.gridSize;
+      const visited = Array.from({ length: N }, () => Array(N).fill(false));
+      const queue = [];
+      queue.push(startCell);
+      visited[startCell.row][startCell.col] = true;
+      const directions = [
+        { dr: -1, dc: 0 }, { dr: 1, dc: 0 },
+        { dr: 0, dc: -1 }, { dr: 0, dc: 1 },
+        { dr: -1, dc: -1 }, { dr: -1, dc: 1 },
+        { dr: 1, dc: -1 }, { dr: 1, dc: 1 }
+      ];
+      while (queue.length) {
+        const cell = queue.shift();
+        if (cell.row === targetCell.row && cell.col === targetCell.col) return true;
+        for (let d of directions) {
+          const nr = cell.row + d.dr;
+          const nc = cell.col + d.dc;
+          if (nr >= 0 && nr < N && nc >= 0 && nc < N && !visited[nr][nc]) {
+            if (board[nr][nc].played && board[nr][nc].correctAnswered) {
+              visited[nr][nc] = true;
+              queue.push({ row: nr, col: nc });
+            }
+          }
+        }
+      }
+      return false;
+    }
+
+    /***********************
+     * Win / Lose Handling
+     ***********************/
+    function winGame() {
+      // Vibrate on win (if supported)
+      if (navigator.vibrate) {
+        navigator.vibrate([200, 100, 200]);
+      }
+      document.getElementById("win-message").textContent = getRandomVictoryWord();
+      document.getElementById("win-stats").innerHTML = `
+        <p>Score: ${score}</p>
+        <p>Correct Answers: ${correctCount}</p>
+        <p>Incorrect Answers: ${incorrectCount}</p>
+        <p>Time Remaining: ${timeRemaining} sec</p>
+      `;
+      document.getElementById("win-modal").style.display = "block";
       clearInterval(timerInterval);
-      timeRemaining = 60;
-      updateStatusBar();
+    }
+
+    function loseGame() {
+      document.getElementById("lose-message").textContent = getRandomDefeatWord();
+      document.getElementById("lose-stats").innerHTML = `
+        <p>Score: ${score}</p>
+        <p>Correct Answers: ${correctCount}</p>
+        <p>Incorrect Answers: ${incorrectCount}</p>
+        <p>Time Remaining: ${timeRemaining} sec</p>
+      `;
+      document.getElementById("lose-modal").style.display = "block";
+      clearInterval(timerInterval);
+    }
+
+    function getRandomVictoryWord() {
+      const words = ["Victory!", "Success!", "Triumph!", "Win!", "Conquered!"];
+      return words[Math.floor(Math.random() * words.length)];
+    }
+
+    function getRandomDefeatWord() {
+      const words = ["Defeat!", "Wrecked!", "Lost!", "Defeated!", "Down!"];
+      return words[Math.floor(Math.random() * words.length)];
+    }
+
+    /***********************
+     * Status & Timer
+     ***********************/
+    function updateStatus() {
+      document.getElementById("status").textContent = `Time: ${timeRemaining} sec | Score: ${score}`;
+    }
+
+    function startTimer() {
+      timeRemaining = settings.timerDuration;
+      updateStatus();
       timerInterval = setInterval(() => {
         timeRemaining--;
-        updateStatusBar();
+        updateStatus();
         if (timeRemaining <= 0) {
           clearInterval(timerInterval);
-          // Dismiss any open hint modal.
-          document.getElementById("hint-modal").style.display = "none";
-          endGame();
+          loseGame();
         }
       }, 1000);
     }
 
-    // Update header status bar.
-    function updateStatusBar() {
-      const timerSpan = document.getElementById("timer");
-      const scoreSpan = document.getElementById("score");
-      if (timerSpan) {
-        timerSpan.textContent = `Time Remaining: ${timeRemaining} seconds`;
-        timerSpan.style.color = (timeRemaining <= 15 && timeRemaining > 0) ? "red" : "black";
-      }
-      if (scoreSpan) {
-        scoreSpan.textContent = `Score: ${score}`;
-      }
-    }
-
-    // Render the main game screen.
-    function renderGameScreen() {
-      const container = document.getElementById("game-container");
-      container.innerHTML = `
-        <div id="header">
-          <h1>Trivia Game</h1>
-          <div id="status-bar">
-            <span id="timer">Time Remaining: ${timeRemaining} seconds</span>
-            <span id="score">Score: ${score}</span>
-          </div>
-        </div>
-        <div id="board"></div>
-        <div style="text-align: center; margin-top: 10px;">
-          <button id="hint-button" style="font-size: 14px; padding: 8px 16px;">Show Hint</button>
-          <button id="skip-button" style="font-size: 14px; padding: 8px 16px;">Skip Question</button>
-        </div>
-        <div id="feedback-container" class="scrollable"></div>
-        <button id="next-button" style="display: none;">Next Question</button>
-      `;
-      document.getElementById("hint-button").onclick = showHint;
-      document.getElementById("skip-button").onclick = skipQuestion;
-      document.getElementById("next-button").onclick = nextQuestion;
-      renderBoard();
-    }
-
-    // Render the grid board.
-    function renderBoard() {
-      const boardDiv = document.getElementById("board");
-      boardDiv.innerHTML = "";
-      // For a 4x4 board:
-      const gridSize = 4;
-      // Assume challenges array is long enough.
-      let index = 0;
-      for (let i = 0; i < gridSize * gridSize; i++) {
-        const cellDiv = document.createElement("div");
-        cellDiv.className = "cell";
-        // For demo, show the topic abbreviation.
-        const challenge = challenges[index % challenges.length];
-        cellDiv.dataset.challengeIndex = index;
-        cellDiv.textContent = challenge.topic.slice(0, 2).toUpperCase();
-        cellDiv.onclick = () => {
-          // Allow cell selection only if not already answered.
-          if (!cellDiv.classList.contains("played-correct") && !cellDiv.classList.contains("played-incorrect")) {
-            currentChallenge = challenge;
-            answerGiven = false;
-            showChallengeModal();
-          }
-        };
-        boardDiv.appendChild(cellDiv);
-        index++;
-      }
-    }
-
-    // Show the challenge modal overlay.
-    function showChallengeModal() {
-      const modal = document.getElementById("challenge-modal");
-      const modalQuestion = document.getElementById("modal-question");
-      const modalAnswers = document.getElementById("modal-answers");
-      modalQuestion.textContent = currentChallenge.question;
-      modalAnswers.innerHTML = "";
-      currentChallenge.answers.forEach(answer => {
-        const btn = document.createElement("button");
-        btn.className = "answer-button";
-        btn.textContent = answer;
-        btn.onclick = () => processAnswer(answer);
-        modalAnswers.appendChild(btn);
-      });
-      document.getElementById("switch-button").disabled = answerGiven;
-      modal.style.display = "block";
-    }
-
-    // Process an answer from the challenge modal.
-    function processAnswer(selected) {
-      const modal = document.getElementById("challenge-modal");
-      if (selected === currentChallenge.correct) {
-        score += (currentChallenge.difficulty === "hard" ? 2 : 1);
-        alert("Correct! " + currentChallenge.explanation);
-      } else {
-        alert("Incorrect. The correct answer is " + currentChallenge.correct + ". " + currentChallenge.explanation);
-      }
-      answerGiven = true;
-      modal.style.display = "none";
-      document.getElementById("hint-button").disabled = true;
-      document.getElementById("skip-button").disabled = true;
-      updateStatusBar();
-      nextQuestion();
-    }
-
-    // Switch question functionality.
-    function switchQuestion() {
-      currentChallenge = challenges[Math.floor(Math.random() * challenges.length)];
-      showChallengeModal();
-    }
-
-    // Skip the current challenge.
-    function skipQuestion() {
-      document.getElementById("hint-button").disabled = true;
-      document.getElementById("skip-button").disabled = true;
-      nextQuestion();
-    }
-
-    // Advance to the next challenge.
-    function nextQuestion() {
-      currentIndex++;
-      if (currentIndex >= challenges.length) {
-        endGame();
-      } else {
-        renderBoard();
-      }
-    }
-
-    // End game screen.
-    function endGame() {
-      clearInterval(timerInterval);
-      document.getElementById("hint-modal").style.display = "none";
-      const container = document.getElementById("game-container");
-      container.innerHTML = `
-        <div id="header">
-          <h1>Trivia Game</h1>
-          <div id="status-bar">
-            <span id="timer">Time Remaining: ${timeRemaining} seconds</span>
-            <span id="score">Score: ${score}</span>
-          </div>
-        </div>
-        <h1 style="text-align:center;">Game Over!</h1>
-        <p style="text-align:center;">Your score: ${score}</p>
-        <div style="text-align:center;"><button id="restart-button">Restart Game</button></div>
-      `;
-      document.getElementById("restart-button").onclick = startGame;
-    }
-
-    // Show hint using a custom modal.
-    function showHint() {
-      const hintModal = document.getElementById("hint-modal");
-      document.getElementById("hint-text").textContent = currentChallenge.hint;
-      hintModal.style.display = "block";
-    }
-    
-    document.getElementById("close-hint").onclick = function() {
-      document.getElementById("hint-modal").style.display = "none";
-    };
-
-    // Start or restart game.
-    async function startGame() {
-      await loadChallenges();
-      currentIndex = 0;
+    /***********************
+     * Game Start & Initialization
+     ***********************/
+    function startGame() {
+      // Reset game state.
+      gameStarted = false;
       score = 0;
-      renderGameScreen();
+      correctCount = 0;
+      incorrectCount = 0;
+      startCell = null;
+      targetCell = null;
+      lastPlayedCell = null;
+      generateBoard();
+      renderBoard();
       startTimer();
     }
 
-    // Start game when the window loads.
-    window.onload = startGame;
+    window.onload = () => {
+      startGame();
+    };
+
+    /***********************
+     * Switch Question Button
+     ***********************/
+    document.getElementById("switch-button").addEventListener("click", () => {
+      if (confirm("Switch question?")) {
+        if (lastPlayedCell) {
+          const cell = board[lastPlayedCell.row][lastPlayedCell.col];
+          const newQ = generateDummyQuestion();
+          cell.question = newQ.question;
+          cell.answers = newQ.answers;
+          cell.correct = newQ.correct;
+          cell.difficulty = newQ.difficulty;
+          cell.topic = newQ.topic;
+          document.getElementById("question-text").textContent = cell.question;
+          const answersContainer = document.getElementById("answers-container");
+          answersContainer.innerHTML = "";
+          cell.answers.forEach(answer => {
+            const btn = document.createElement("button");
+            btn.textContent = answer;
+            btn.addEventListener("click", () => processAnswer(lastPlayedCell.row, lastPlayedCell.col, answer));
+            answersContainer.appendChild(btn);
+          });
+          document.getElementById("question-timer").textContent = "Question switched!";
+        }
+      }
+    });
+
+    /***********************
+     * Play Again Buttons
+     ***********************/
+    document.getElementById("play-again-button").addEventListener("click", () => location.reload());
+    document.getElementById("play-again-button-lose").addEventListener("click", () => location.reload());
   </script>
 </body>
 </html>
